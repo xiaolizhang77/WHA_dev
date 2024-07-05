@@ -6,5 +6,7 @@ def load_image(path):
 
 def compare_images(image1, image2):
     # Compute the Structural Similarity Index (SSI) between the two images
-    score, diff = compare_ssim(image1, image2, full=True)
-    return score
+    if image1.shape == image2.shape:
+        score, diff = compare_ssim(image1, image2, full=True)
+        return score
+    return -1

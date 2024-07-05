@@ -1,7 +1,9 @@
 import adb
 import tools
+import DispatchCompany
 
 if __name__ == "__main__":
+
     device_id = "YOUR_DEVICE_ID"
 
     # 步骤执行
@@ -15,16 +17,25 @@ if __name__ == "__main__":
     # start_app(package_name, activity_name)
 
     print("手动：物华米线，启动！")
-    adb.perform_click(1000, 360)  # 示例点击坐标
 
-    screenshot_name = tools.get_pic_name()
-    adb.get_screen_cut(screenshot_name)
-    tools.match_pic(screenshot_name)
 
-    tools.sleep()
+    DispatchCompany.DispatchCompany()
 
-    screenshot_name = tools.get_pic_name()
-    adb.get_screen_cut(screenshot_name)
-    tools.match_pic(screenshot_name)
-    # get_logcat()
-    # uninstall_app(package_name)
+
+    # for i in range(1000):
+    #     screenshot_name = tools.get_pic_name()
+    #     adb.get_screen_cut(screenshot_name)
+    # adb.perform_click(1000, 360)  # 示例点击坐标
+    #
+    # screenshot_name = tools.get_pic_name()
+    # adb.get_screen_cut(screenshot_name)
+    # tools.match_pic(screenshot_name)
+    #
+    # tools.sleep()
+    #
+    # screenshot_name = tools.get_pic_name()
+    # adb.get_screen_cut(screenshot_name)
+    # tools.match_pic(screenshot_name)
+    # # get_logcat()
+    # # uninstall_app(package_name)
+    # tools.delete_png_files()
