@@ -36,6 +36,15 @@ def getResourse():
     tools.sleep()
     adb.perform_click(1500, 970)
     tools.sleep()
+
+    try:
+        enterDC()
+    except Exception as e:
+        raise e
+    adb.perform_click(832, 932)
+    tools.sleep()
+    adb.perform_click(400, 300)
+    tools.sleep()
     print("获取资源")
 
 
@@ -54,38 +63,85 @@ def enterOffice():
 
 
 def drinkTea():
-    print("Drinking Tea")
+    print("喝不了一点")
 
 
 def capsuleToy():
-    for i in range(5):
-        try:
-            enterOffice()
-        except Exception as e:
-            raise e
-        adb.perform_click(335, 135)
-        tools.sleep()
-        if tools.match_pics() == "machine":
-            adb.perform_click(1365, 575)
-            tools.sleep()
-            adb.perform_click(1365, 575)
-            tools.sleep()
-            print("开扭")
-            return
-        elif tools.match_pics() == "office":
-            print("扭过了")
-            return
-    print("扭蛋机完成")
-    adb.perform_click(70, 50)
+    try:
+        enterOffice()
+    except Exception as e:
+        raise e
+    adb.perform_click(335, 135)
     tools.sleep()
+    if tools.match_pics() == "machine":
+        adb.perform_click(1365, 575)
+        tools.sleep()
+        adb.perform_click(1365, 575)
+        tools.sleep()
+        print("开扭")
+    elif tools.match_pics() == "office":
+        print("扭过了")
+    print("扭蛋机完成")
+    tools.back()
 
 
 def addBookItem():
-    print("Adding Book Item")
+    for i in range(3):
+        try:
+            enterDC()
+        except Exception as e:
+            raise e
+        adb.perform_click(150, 650)
+        tools.sleep()
+        if tools.match_pics() == "book":
+            adb.perform_click(400, 850)
+            tools.sleep()
+            adb.perform_click(1600, 820)
+            tools.sleep()
+            adb.perform_click(1500, 970)
+            tools.sleep()
+            if tools.match_pics() == "bookChange":
+                adb.perform_click(1130, 640)
+                tools.sleep()
+            tools.back()
+            tools.back()
+            break
 
+    for i in range(3):
+        try:
+            enterDC()
+        except Exception as e:
+            raise e
+        adb.perform_click(150, 500)
+        tools.sleep()
+        if tools.match_pics() == "item":
+            adb.perform_click(400, 850)
+            tools.sleep()
+            adb.perform_click(1600, 820)
+            tools.sleep()
+            adb.perform_click(1500, 970)
+            tools.sleep()
+            if tools.match_pics() == "bookChange":
+                adb.perform_click(1130, 640)
+                tools.sleep()
+            tools.back()
+            tools.back()
+            break
+
+def dormitory():
+    adb.perform_click(750, 800)
+    tools.sleep()
+    adb.perform_click(350, 1000)
+    tools.sleep()
 
 def DispatchCompany():
     getResourse()
     capsuleToy()
     addBookItem()
+    dormitory()
     drinkTea()
+    tools.delete_png_files()
+    try:
+        home.returnHome()
+    except Exception as e:
+        raise e

@@ -30,19 +30,18 @@ def sleep():
     time.sleep(3)
 
 def match_pic(pic_name):
-    current_image = cv.load_image(f"./pic/{pic_name}")
+    current_image = cv.calculate_histogram(f"./pic/{pic_name}")
     b_score = 0
     b_name = ""
     for screen_name, known_screenshot_path in const.known_screenshot_paths.items():
-        known_image = cv.load_image(known_screenshot_path)
-        score = cv.compare_images(current_image, known_image)
+        score = cv.compare_histograms(current_image,known_screenshot_path)
         if score > b_score:
             b_score = score
             b_name = screen_name
         # print(f"Similarity with {screen_name}: {score}")
     # 假设阈值为0.9，表示高度相似
     if b_score > 0.7:
-        print(f"Current screen is: ${b_name}$")
+        print(f"Current screen is: ${b_name}$, score: {b_score}")
         return b_name
     return "No match found"
 
@@ -50,3 +49,7 @@ def match_pics():
     name = get_pic_name()
     adb.get_screen_cut(name)
     return match_pic(name)
+
+def back():
+    adb.perform_click(70, 50)
+    sleep()

@@ -6,6 +6,5 @@ def returnHome():
         if tools.match_pics() == "home":
             print("这是主页")
             return
-        adb.perform_click(70, 50)
-        tools.sleep()
+        tools.back()
     raise Exception("Error")
