@@ -7,4 +7,4 @@ def returnHome():
             print("这是主页")
             return
         tools.back()
-    raise Exception("Error")
+    raise Exception("Enter Home Error")

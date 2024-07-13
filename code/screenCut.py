@@ -2,7 +2,6 @@ import adb
 import tools
 import DispatchCompany
 import cv
-import Call
 
 if __name__ == "__main__":
 
@@ -18,9 +17,8 @@ if __name__ == "__main__":
     print("列出长宽")
     # start_app(package_name, activity_name)
     print("手动：物华米线，启动！")
-
     cv.load_feature_data()
-
-    DispatchCompany.DispatchCompany()
-    Call.call()
-    tools.delete_png_files()
+    for i in range(1000):
+        screenshot_name = tools.get_pic_name()
+        adb.get_screen_cut(screenshot_name)
+        tools.sleepTime(1)

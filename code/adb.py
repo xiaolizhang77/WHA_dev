@@ -41,6 +41,13 @@ def package_list():
 def get_wh():
     run_adb_command("shell wm size")
 
+# 长按 duration 单位毫秒
+def press_and_hold(x, y, duration):
+    run_adb_command(f"adb shell input touchscreen swipe {x} {y} {x} {y} {duration}")
+
+def swipe(x1, y1, x2,y2,duration):
+    run_adb_command(f"adb shell input touchscreen swipe {x1} {y1} {x2} {y2} {duration}")
+
 def get_screen_cut(screenshot_name):
     run_adb_command(f"shell screencap /sdcard/{screenshot_name}")
     run_adb_command(f"pull /sdcard/{screenshot_name} ./pic")

@@ -8,14 +8,13 @@ def enterDC():
         if tools.match_pics() == "dispatchCompany":
             print("进入派遣公司")
             return
-        print("????")
         try:
             home.returnHome()
         except Exception as e:
             raise e
         adb.perform_click(1750, 740)
         tools.sleep()
-    raise Exception("Error")
+    raise Exception("Enter DC Error")
 
 
 def getResourse():
@@ -59,7 +58,7 @@ def enterOffice():
             raise e
         adb.perform_click(735, 285)
         tools.sleep()
-    raise Exception("Error")
+    raise Exception("Enter Office Error")
 
 
 def drinkTea():
