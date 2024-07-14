@@ -43,13 +43,20 @@ def match_pic(pic_name):
     b_score = 0
     b_name = ""
     for screen_name, known_screenshot_path in const.known_screenshot_paths.items():
-        score = cv.compare_histograms(current_image, known_screenshot_path)
+        if screen_name in const.known_screenshot_area.keys():
+            x, y, w, h = const.known_screenshot_area[screen_name]
+            current_area = cv.calculate_area(f"./pic/{pic_name}", x, y, w, h)
+            score = cv.compare_area(current_area, known_screenshot_path)
+            print(f"{screen_name}: {score}")
+        else:
+            score = cv.compare_histograms(current_image, known_screenshot_path)
+        if score > 0.95:
+            print(f"{pic_name}: {score}")
         if score > b_score:
             b_score = score
             b_name = screen_name
-        # print(f"Similarity with {screen_name}: {score}")
     # 假设阈值为0.9，表示高度相似
-    if b_score > 0.7:
+    if b_score > 0.8:
         print(f"Current screen is: ${b_name}$, score: {b_score}")
         return b_name
     return "No match found"

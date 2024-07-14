@@ -24,9 +24,9 @@ if __name__ == "__main__":
 
     cv.load_feature_data()
 
-    Store.store()
-    DispatchCompany.DispatchCompany()
-    Call.call()
+    # Store.store()
+    # DispatchCompany.DispatchCompany()
+    # Call.call()
     # Fight.fight()
     Award.award()
 

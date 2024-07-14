@@ -16,7 +16,7 @@ def award():
         adb.perform_click(1200, 1000)
         tools.sleep()
     else:
-        raise Exception()
+        print("")
 
     adb.perform_click(200, 500)
     tools.sleep()

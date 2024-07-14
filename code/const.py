@@ -41,3 +41,13 @@ known_screenshot_paths = {
     "weeklyAward": "./known_pic/weeklyAward.png"
     # 添加更多已知截图路径
 }
+
+#   已知界面的特征区域
+known_screenshot_area = {
+    "home": [1360, 575, 250, 200],
+    "office": [0, 0, 400, 100],
+    "store": [0, 0, 400, 100],
+    "package": [500, 250, 500, 500],
+    "dailyAward": [0, 0, 400, 100],
+    "weeklyAward": [0, 0, 400, 100],
+}
