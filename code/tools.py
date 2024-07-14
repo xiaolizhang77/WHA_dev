@@ -67,4 +67,4 @@ def back():
 
 
 def press_hold(x, y, time):
-    adb.perform_click(x, y, time * 1000)
+    adb.press_and_hold(x, y, time * 1000)

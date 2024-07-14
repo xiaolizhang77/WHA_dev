@@ -10,6 +10,8 @@ known_screenshot_paths = {
 
     "calendar": "./known_pic/calendar.png",
 
+    "getThings": "./known_pic/getThings.png",
+
     "home": "./known_pic/home.png",
     "office": "./known_pic/office.png",
     "book": "./known_pic/book.png",
@@ -20,7 +22,7 @@ known_screenshot_paths = {
     "dormitory": "./known_pic/dormitory.png",
 
     "callMain": "./known_pic/callMain.png",
-    "callNum":"./known_pic/callNum.png",
+    "callNum": "./known_pic/callNum.png",
     "callEnd": "./known_pic/callEnd.png",
     "confirmCall0": "./known_pic/confirmCall_0.png",
     "confirmCall1": "./known_pic/confirmCall_1.png",
@@ -30,6 +32,12 @@ known_screenshot_paths = {
     "confirmCall5": "./known_pic/confirmCall_5.png",
     "confirmCall6": "./known_pic/confirmCall_6.png",
     "confirmCall7": "./known_pic/confirmCall_7.png",
+    "callEnd2": "./known_pic/callEnd2.png",
 
+    "store": "./known_pic/store.png",
+    "package": "./known_pic/package.png",
+
+    "dailyAward": "./known_pic/dailyAward.png",
+    "weeklyAward": "./known_pic/weeklyAward.png"
     # 添加更多已知截图路径
 }

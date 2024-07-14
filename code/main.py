@@ -3,6 +3,9 @@ import tools
 import DispatchCompany
 import cv
 import Call
+import Store
+import Fight
+import Award
 
 if __name__ == "__main__":
 
@@ -21,6 +24,10 @@ if __name__ == "__main__":
 
     cv.load_feature_data()
 
+    Store.store()
     DispatchCompany.DispatchCompany()
     Call.call()
+    # Fight.fight()
+    Award.award()
+
     tools.delete_png_files()

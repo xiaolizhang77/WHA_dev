@@ -6,7 +6,7 @@ import tools
 def enterCall():
     for i in range(5):
         str = tools.match_pics()
-        if str == "callMain" or str == "comfirmCall_0" or str == "comfirmCall_1":
+        if str == "callMain" or str == "confirmCall0" or str == "confirmCall1":
             return str
         try:
             home.returnHome()
@@ -21,12 +21,12 @@ def confirmCall():
     adb.perform_click(1650, 950)
     tools.sleep()
     for i in range(5):
-        if tools.match_pics() == "comfirmCall_2":
+        if tools.match_pics() == "confirmCall2":
             tools.press_hold(1000, 500, 3)
         elif i == 5:
             raise Exception("Call Error")
     for i in range(10):
-        if tools.match_pics() == "comfirmCall_3" or tools.match_pics() == "comfirmCall_4" or tools.match_pics() == "comfirmCall_5" or tools.match_pics() == "comfirmCall_6" or tools.match_pics() == "comfirmCall_7":
+        if tools.match_pics() == "confirmCall3" or tools.match_pics() == "confirmCall4" or tools.match_pics() == "confirmCall5" or tools.match_pics() == "confirmCall6" or tools.match_pics() == "confirmCall7":
             adb.perform_click(1870, 50)
             tools.sleep()
         else:
@@ -55,12 +55,14 @@ def callNew():
         raise Exception("Call New Error")
     adb.perform_click(1650, 950)
     tools.sleep()
-    for i in range(5):
-        if tools.match_pics() == "callNum":
-            adb.perform_click(1150, 520)
-            tools.sleepTime(1)
-        else:
-            raise Exception("Call New Error")
+    if tools.match_pics() == "callNum":
+        adb.perform_click(1150, 520)
+        tools.sleepTime(1)
+    elif tools.match_pics() == "callMain":
+        print("征集信不足")
+        return
+    else:
+        raise Exception("Call New Error")
     if tools.match_pics() == "callNum":
         adb.perform_click(1130, 650)
         tools.sleepTime(1)
