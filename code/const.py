@@ -61,4 +61,6 @@ known_screenshot_area = {
     "fight": [0, 0, 400, 100],
     "fightMoneyFive": [0, 0, 400, 250],
     "fightMoneyNum": [800, 600, 650, 240],
+    "fighting": [1020, 0, 900, 250],
+    "fightEnd": [1020, 0, 900, 250],
 }

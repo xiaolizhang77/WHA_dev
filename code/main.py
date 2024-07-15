@@ -30,7 +30,7 @@ if __name__ == "__main__":
     Store.store()
     DispatchCompany.DispatchCompany()
     Call.call()
-    Fight.fight("money")
+    Fight.fight("Money")
     Award.award()
 
 

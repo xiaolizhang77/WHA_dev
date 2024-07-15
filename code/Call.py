@@ -33,6 +33,8 @@ def confirmCall():
             adb.perform_click(1870, 50)
         else:
             break
+    tools.sleep()
+    tools.sleep()
     pic = tools.match_pics()
     if pic == "callEnd" or pic == "callEnd2":
         tools.sleep()
@@ -103,4 +105,5 @@ def call():
     except Exception as e:
         print(e)
         return
+    
     tools.delete_png_files()
