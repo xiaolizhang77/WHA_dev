@@ -8,7 +8,6 @@ import Fight
 import Award
 
 if __name__ == "__main__":
-
     device_id = "YOUR_DEVICE_ID"
 
     # 步骤执行
@@ -24,14 +23,6 @@ if __name__ == "__main__":
 
     cv.load_feature_data()
 
-    tools.delete_png_files()
+    adb.version()
+    tools.press_hold(1000, 500, 10)
 
-
-    # Store.store()
-    # DispatchCompany.DispatchCompany()
-    Call.call()
-    # Fight.fight()
-    # Award.award()
-
-
-    tools.delete_png_files()

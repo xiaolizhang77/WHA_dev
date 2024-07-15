@@ -22,13 +22,16 @@ def confirmCall():
     tools.sleep()
     for i in range(5):
         if tools.match_pics() == "confirmCall2":
-            tools.press_hold(1000, 500, 3)
+            tools.press_hold(1000, 500, 2)
         elif i == 5:
             raise Exception("Call Error")
-    for i in range(10):
-        if tools.match_pics() == "confirmCall3" or tools.match_pics() == "confirmCall4" or tools.match_pics() == "confirmCall5" or tools.match_pics() == "confirmCall6" or tools.match_pics() == "confirmCall7":
+        else:
+            break
+    for i in range(100):
+        str = tools.match_pics()
+        if str == "confirmCall3" or str == "confirmCall4" or str == "confirmCall5" or str == "confirmCall6" or str == "confirmCall7":
+            print("点点点")
             adb.perform_click(1870, 50)
-            tools.sleep()
         else:
             break
     if tools.match_pics() == "callEnd" or tools.match_pics() == "callEnd2":
@@ -36,7 +39,7 @@ def confirmCall():
         adb.perform_click(950, 930)
         tools.sleep()
     else:
-        raise Exception("Call Error")
+        raise Exception("Confirm Call Error")
 
 
 def callNew():
@@ -75,14 +78,29 @@ def call():
     try:
         str = enterCall()
     except Exception as e:
-        raise e
+        print(e)
+        return
     if str == "callMain":
-        callNew()
+        try:
+            callNew()
+        except Exception as e:
+            print(e)
+            return
     else:
-        confirmCall()
-        callNew()
+        try:
+            confirmCall()
+        except Exception as e:
+            home.returnHome()
+            print(e)
+            return
+        try:
+            callNew()
+        except Exception as e:
+            print(e)
+            return
     try:
         home.returnHome()
     except Exception as e:
-        raise e
+        print(e)
+        return
     tools.delete_png_files()

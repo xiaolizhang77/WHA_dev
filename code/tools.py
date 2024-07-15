@@ -73,5 +73,5 @@ def back():
     sleep()
 
 
-def press_hold(x, y, time):
-    adb.press_and_hold(x, y, time * 1000)
+def press_hold(x, y, t):
+    adb.press_and_hold(x, y, t * 1000)
