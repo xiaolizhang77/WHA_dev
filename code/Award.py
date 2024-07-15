@@ -15,8 +15,10 @@ def award():
         tools.sleep()
         adb.perform_click(1200, 1000)
         tools.sleep()
+        adb.perform_click(1200, 1000)
+        tools.sleep()
     else:
-        print("")
+        print("Award Error")
 
     adb.perform_click(200, 500)
     tools.sleep()
@@ -25,7 +27,9 @@ def award():
         tools.sleep()
         adb.perform_click(1200, 1000)
         tools.sleep()
+        adb.perform_click(1200, 1000)
+        tools.sleep()
     else:
-        raise Exception()
+        print("Award Error")
 
     tools.back()

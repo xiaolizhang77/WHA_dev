@@ -47,6 +47,8 @@ known_screenshot_paths = {
     "fightEnd": "./known_pic/fightEnd.png",
     "fighting": "./known_pic/fighting.png",
 
+    "heartFull": "./known_pic/heartFull.png",
+
 }
 
 #   已知界面的特征区域
@@ -63,4 +65,5 @@ known_screenshot_area = {
     "fightMoneyNum": [800, 600, 650, 240],
     "fighting": [1020, 0, 900, 250],
     "fightEnd": [1020, 0, 900, 250],
+    "heartFull": [600, 350, 700, 380],
 }

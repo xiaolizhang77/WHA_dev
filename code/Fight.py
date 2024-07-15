@@ -59,6 +59,10 @@ def fight(name):
     adb.perform_click(1280, 620)
     tools.sleep()
 
+    if tools.match_pics() == "heartFull":
+        adb.perform_click(1150, 630)
+        tools.sleep()
+
     for i in range(100):
         tools.sleep()
         str = tools.match_pics()
