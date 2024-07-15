@@ -38,8 +38,15 @@ known_screenshot_paths = {
     "package": "./known_pic/package.png",
 
     "dailyAward": "./known_pic/dailyAward.png",
-    "weeklyAward": "./known_pic/weeklyAward.png"
-    # 添加更多已知截图路径
+    "weeklyAward": "./known_pic/weeklyAward.png",
+
+    "fight": "./known_pic/fight.png",
+    "fightMoney": "./known_pic/fightMoney.png",
+    "fightMoneyFive": "./known_pic/fightMoneyFive.png",
+    "fightMoneyNum": "./known_pic/fightMoneyNum.png",
+    "fightEnd": "./known_pic/fightEnd.png",
+    "fighting": "./known_pic/fighting.png",
+
 }
 
 #   已知界面的特征区域
@@ -50,4 +57,8 @@ known_screenshot_area = {
     "package": [500, 250, 500, 500],
     "dailyAward": [0, 0, 400, 100],
     "weeklyAward": [0, 0, 400, 100],
+    "callEnd2": [800, 900, 300, 70],
+    "fight": [0, 0, 400, 100],
+    "fightMoneyFive": [0, 0, 400, 250],
+    "fightMoneyNum": [800, 600, 650, 240],
 }

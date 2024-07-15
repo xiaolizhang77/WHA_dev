@@ -67,5 +67,10 @@ def get_screen_cut(screenshot_name):
     run_adb_command(f"pull /sdcard/{screenshot_name} ./pic")
     run_adb_command(f"shell rm /sdcard/{screenshot_name}")
 
+def get_screen_cut_dev(screenshot_name):
+    run_adb_command(f"shell screencap /sdcard/{screenshot_name}")
+    run_adb_command(f"pull /sdcard/{screenshot_name} ./pic_my")
+    run_adb_command(f"shell rm /sdcard/{screenshot_name}")
+
 def version():
     run_adb_command(f"version")

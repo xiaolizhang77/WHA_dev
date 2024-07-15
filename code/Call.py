@@ -30,11 +30,11 @@ def confirmCall():
     for i in range(100):
         str = tools.match_pics()
         if str == "confirmCall3" or str == "confirmCall4" or str == "confirmCall5" or str == "confirmCall6" or str == "confirmCall7":
-            print("点点点")
             adb.perform_click(1870, 50)
         else:
             break
-    if tools.match_pics() == "callEnd" or tools.match_pics() == "callEnd2":
+    pic = tools.match_pics()
+    if pic == "callEnd" or pic == "callEnd2":
         tools.sleep()
         adb.perform_click(950, 930)
         tools.sleep()

@@ -27,11 +27,11 @@ if __name__ == "__main__":
     tools.delete_png_files()
 
 
-    # Store.store()
-    # DispatchCompany.DispatchCompany()
+    Store.store()
+    DispatchCompany.DispatchCompany()
     Call.call()
-    # Fight.fight()
-    # Award.award()
+    Fight.fight("money")
+    Award.award()
 
 
     tools.delete_png_files()
