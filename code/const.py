@@ -20,6 +20,7 @@ known_screenshot_paths = {
     "item": "./known_pic/item.png",
     "machine": "./known_pic/machine.png",
     "dormitory": "./known_pic/dormitory.png",
+    "confirmItem": "./known_pic/confirmItem.png",
 
     "callMain": "./known_pic/callMain.png",
     "callNum": "./known_pic/callNum.png",
@@ -66,4 +67,6 @@ known_screenshot_area = {
     "fighting": [1020, 0, 900, 250],
     "fightEnd": [1020, 0, 900, 250],
     "heartFull": [600, 350, 700, 380],
+    "confirmItem": [600, 350, 700, 380],
+    "bookChange": [600, 350, 700, 380],
 }

@@ -99,7 +99,8 @@ def addBookItem():
             tools.sleep()
             adb.perform_click(1500, 970)
             tools.sleep()
-            if tools.match_pics() == "bookChange":
+            str = tools.match_pics()
+            if str == "bookChange" or str == "confirmItem":
                 adb.perform_click(1130, 640)
                 tools.sleep()
             tools.back()
@@ -120,7 +121,7 @@ def addBookItem():
             tools.sleep()
             adb.perform_click(1500, 970)
             tools.sleep()
-            if tools.match_pics() == "bookChange":
+            if tools.match_pics() == "bookChange" or str == "confirmItem":
                 adb.perform_click(1130, 640)
                 tools.sleep()
             tools.back()
@@ -128,6 +129,10 @@ def addBookItem():
             break
 
 def dormitory():
+    try:
+        enterDC()
+    except Exception as e:
+        raise e
     adb.perform_click(750, 800)
     tools.sleep()
     adb.perform_click(350, 1000)
