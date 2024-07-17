@@ -24,3 +24,5 @@ def store():
         adb.perform_click(1220,800)
         tools.sleep()
     tools.back()
+
+    tools.delete_png_files()

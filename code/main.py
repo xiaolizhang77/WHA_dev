@@ -6,6 +6,7 @@ import Call
 import Store
 import Fight
 import Award
+import Mail
 
 if __name__ == "__main__":
 
@@ -26,7 +27,7 @@ if __name__ == "__main__":
 
     tools.delete_png_files()
 
-
+    Mail.mail()
     Store.store()
     DispatchCompany.DispatchCompany()
     Call.call()

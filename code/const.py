@@ -50,6 +50,8 @@ known_screenshot_paths = {
 
     "heartFull": "./known_pic/heartFull.png",
 
+    "mail": "./known_pic/mail.png"
+
 }
 
 #   已知界面的特征区域
@@ -69,4 +71,5 @@ known_screenshot_area = {
     "heartFull": [600, 350, 700, 380],
     "confirmItem": [600, 350, 700, 380],
     "bookChange": [600, 350, 700, 380],
+    "mail": [0, 0, 400, 100],
 }

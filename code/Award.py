@@ -33,3 +33,5 @@ def award():
         print("Award Error")
 
     tools.back()
+
+    tools.delete_png_files()
