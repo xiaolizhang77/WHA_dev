@@ -8,31 +8,33 @@ import Fight
 import Award
 import Mail
 
-if __name__ == "__main__":
 
-    device_id = "YOUR_DEVICE_ID"
-
-    # 步骤执行
-    adb.connect_device(device_id)
+def main(store: bool, mail: bool, DC: bool, call: bool, fight: bool, str: str, award: bool):
+    # device_id = "YOUR_DEVICE_ID"
+    # adb.connect_device(device_id)
     print("虚拟机启动！")
-    adb.package_list()
-    # install_app(apk_path)
-    print("列出所有package")
+    # adb.package_list()
+    # print("列出所有package")
     adb.get_wh()
     print("列出长宽")
-    # start_app(package_name, activity_name)
-    print("手动：物华米线，启动！")
 
     cv.load_feature_data()
-
     tools.delete_png_files()
 
-    Mail.mail()
-    Store.store()
-    DispatchCompany.DispatchCompany()
-    Call.call()
-    Fight.fight("Money")
-    Award.award()
-
-
+    if store:
+        Store.store()
+    if mail:
+        Mail.mail()
+    if DC:
+        DispatchCompany.DispatchCompany()
+    if call:
+        Call.call()
+    if fight:
+        Fight.fight(str)
+    if award:
+        Award.award()
     tools.delete_png_files()
+
+
+if __name__ == "__main__":
+    main(True, True, True, True, True, "Money", True)
