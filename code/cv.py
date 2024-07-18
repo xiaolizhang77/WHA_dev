@@ -1,4 +1,3 @@
-from skimage.metrics import structural_similarity as compare_ssim
 import cv2
 import pickle
 import os

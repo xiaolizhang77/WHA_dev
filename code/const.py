@@ -1,5 +1,5 @@
 # adb.exe的路径
-adb_path = "D:\\leidian\\LDPlayer9\\adb.exe"
+adb_path = ""
 
 directory = "./pic"
 
@@ -47,6 +47,12 @@ known_screenshot_paths = {
     "fightMoneyNum": "./known_pic/fightMoneyNum.png",
     "fightEnd": "./known_pic/fightEnd.png",
     "fighting": "./known_pic/fighting.png",
+    "fightBook": "./known_pic/fightBook.png",
+    "fightBookFive": "./known_pic/fightBookFive.png",
+    "fightBookNum": "./known_pic/fightBookNum.png",
+    "fightWeapon": "./known_pic/fightWeapon.png",
+    "fightWeaponFive": "./known_pic/fightWeaponFive.png",
+    "fightWeaponNum": "./known_pic/fightWeaponNum.png",
 
     "heartFull": "./known_pic/heartFull.png",
 
@@ -72,4 +78,13 @@ known_screenshot_area = {
     "confirmItem": [600, 350, 700, 380],
     "bookChange": [600, 350, 700, 380],
     "mail": [0, 0, 400, 100],
+    "fightWeaponFive": [0, 0, 400, 250],
+    "fightWeaponNum": [800, 600, 650, 240],
+    "fightBookFive": [0, 0, 400, 250],
+    "fightBookNum": [800, 600, 650, 240],
 }
+
+
+def setAdbPath(str):
+    global adb_path
+    adb_path = str

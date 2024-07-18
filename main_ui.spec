@@ -1,0 +1,50 @@
+# -*- mode: python ; coding: utf-8 -*-
+
+
+a = Analysis(
+    ['code\\main_ui.py'],
+    pathex=['D:\\anaconda3\\envs\\MwaEnv\\Lib\\site-packages\\qt6_applications\\Qt\\bin'],
+    binaries=[],
+    datas=[('code/main.py', '.'),
+    ('code/__init__.py', '.'),
+    ('code/adb.py', '.'),
+    ('code/Call.py', '.'),
+    ('code/const.py', '.'),
+    ('code/cv.py', '.'),
+    ('code/DispatchCompany.py', '.'),
+    ('code/Fight.py', '.'),
+    ('code/home.py', '.'),
+    ('code/Mail.py', '.'),
+    ('code/Store.py', '.'),
+    ('code/tools.py', '.'),
+    ('code/Award.py', '.')],
+    hiddenimports=['skimage', 'skimage.metrics'],
+    hookspath=[],
+    hooksconfig={},
+    runtime_hooks=[],
+    excludes=[],
+    noarchive=False,
+    optimize=0,
+)
+pyz = PYZ(a.pure)
+
+exe = EXE(
+    pyz,
+    a.scripts,
+    a.binaries,
+    a.datas,
+    [],
+    name='物华弥新小助手',
+    debug=False,
+    bootloader_ignore_signals=False,
+    strip=False,
+    upx=True,
+    upx_exclude=[],
+    runtime_tmpdir=None,
+    console=False,
+    disable_windowed_traceback=False,
+    argv_emulation=False,
+    target_arch=None,
+    codesign_identity=None,
+    entitlements_file=None,
+)

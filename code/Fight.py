@@ -2,7 +2,9 @@ import home
 import adb
 import tools
 
-emum = {"Money","Book","Weapon"}
+emum = {"Money", "Book", "Weapon"}
+
+
 def fight(name):
     if name not in emum:
         print("Fight False")
@@ -49,7 +51,7 @@ def fight(name):
         print("Fight Error")
         return
 
-    tools.press_hold(1350,500,3)
+    tools.press_hold(1350, 500, 3)
     tools.sleep()
 
     if tools.match_pics() != f"fight{name}Num":
@@ -78,6 +80,7 @@ def fight(name):
         print("Fight Error")
         return
 
+    tools.sleep()
     adb.perform_click(1660, 950)
     tools.sleep()
 

@@ -2,6 +2,7 @@ import cv
 import const
 import os
 import pickle
+
 # 输出特征文件路径
 output_file = "./known_features.pkl"
 # 预处理图像并保存特征

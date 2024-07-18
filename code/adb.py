@@ -1,5 +1,6 @@
 import subprocess
 import const
+import os
 
 
 def run_adb_command(command):
@@ -63,14 +64,18 @@ def swipe(x1, y1, x2, y2, duration):
 
 
 def get_screen_cut(screenshot_name):
+    if not os.path.exists("pic"):
+        os.makedirs("pic")
     run_adb_command(f"shell screencap /sdcard/{screenshot_name}")
     run_adb_command(f"pull /sdcard/{screenshot_name} ./pic")
     run_adb_command(f"shell rm /sdcard/{screenshot_name}")
+
 
 def get_screen_cut_dev(screenshot_name):
     run_adb_command(f"shell screencap /sdcard/{screenshot_name}")
     run_adb_command(f"pull /sdcard/{screenshot_name} ./pic_my")
     run_adb_command(f"shell rm /sdcard/{screenshot_name}")
+
 
 def version():
     run_adb_command(f"version")

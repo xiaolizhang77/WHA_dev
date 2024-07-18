@@ -1,6 +1,8 @@
 import cv
 import tools
 import adb
+
+
 def returnHome():
     for i in range(10):
         if tools.match_pics() == "home":

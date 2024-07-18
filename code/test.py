@@ -25,4 +25,3 @@ if __name__ == "__main__":
 
     adb.version()
     tools.press_hold(1000, 500, 10)
-

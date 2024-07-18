@@ -128,6 +128,7 @@ def addBookItem():
             tools.back()
             break
 
+
 def dormitory():
     try:
         enterDC()
@@ -137,6 +138,7 @@ def dormitory():
     tools.sleep()
     adb.perform_click(350, 1000)
     tools.sleep()
+
 
 def DispatchCompany():
     getResourse()
