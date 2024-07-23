@@ -1,0 +1,17 @@
+虚拟机启动！:"D:\MuMu Player 12\shell\adb.exe";16384
+配置完成
+尝试链接mumu:"D:\MuMu Player 12\shell\adb.exe"
+CompletedProcess(args='"D:\\MuMu Player 12\\shell\\adb.exe" connect 127.0.0.1:16384', returncode=0, stdout='already connected to 127.0.0.1:16384\n', stderr='')
+Physical size: 1080x1920
+
+领取礼包
+
+/sdcard/screenshot_20240723_173353.png: 1 file pulled, 0 skipped. 52.1 MB/s (2281686 bytes in 0.042s)
+
+
+match_pic:screenshot_20240723_173353.png
+area:home,score: 0.987069096213631
+area:office,score: 0.9663426497722282
+Current screen is: $home$, score: 0.987069096213631
+这是主页
+

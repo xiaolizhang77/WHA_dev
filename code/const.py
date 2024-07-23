@@ -1,5 +1,6 @@
 # adb.exe的路径
 adb_path = ""
+adb_port = ""
 
 directory = "./pic"
 
@@ -56,8 +57,9 @@ known_screenshot_paths = {
 
     "heartFull": "./known_pic/heartFull.png",
 
-    "mail": "./known_pic/mail.png"
+    "mail": "./known_pic/mail.png",
 
+    "travel": "./known_pic/travel.png"
 }
 
 #   已知界面的特征区域
@@ -82,9 +84,15 @@ known_screenshot_area = {
     "fightWeaponNum": [800, 600, 650, 240],
     "fightBookFive": [0, 0, 400, 250],
     "fightBookNum": [800, 600, 650, 240],
+    "travel": [0, 0, 400, 100],
+}
+
+button = {
+    "travel": [1050, 960, 230, 80],
 }
 
 
-def setAdbPath(str):
-    global adb_path
-    adb_path = str
+def setAdbPath(path: str, port: str):
+    global adb_path, adb_port
+    adb_path = path
+    adb_port = port

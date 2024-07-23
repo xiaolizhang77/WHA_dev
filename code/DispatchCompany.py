@@ -143,7 +143,7 @@ def dormitory():
 def DispatchCompany():
     getResourse()
     capsuleToy()
-    addBookItem()
+    # addBookItem()
     dormitory()
     drinkTea()
     tools.delete_png_files()

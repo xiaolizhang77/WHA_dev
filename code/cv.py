@@ -4,6 +4,7 @@ import os
 
 known_features = {}
 known_features_areas = {}
+known_features_button = {}
 
 
 def load_image(path):
@@ -43,6 +44,11 @@ def compare_area(hist1, hist2_path):
     return cv2.compareHist(hist1, hist2, cv2.HISTCMP_CORREL)
 
 
+def compare_button(hist1, hist2_path):
+    hist2 = known_features_button[os.path.basename(hist2_path)]
+    return cv2.compareHist(hist1, hist2, cv2.HISTCMP_CORREL)
+
+
 def save_feature_data(image_paths, output_file):
     features = {}
     for image_path in image_paths:
@@ -63,3 +69,8 @@ def load_feature_data():
         print(f"File not found: ./known_features_area.pkl")
     with open("./known_features_area.pkl", 'rb') as f2:
         known_features_areas = pickle.load(f2)
+    global known_features_button
+    if not os.path.exists("./known_features_button.pkl"):
+        print(f"File not found: ./known_features_button.pkl")
+    with open("./known_features_button.pkl", 'rb') as f2:
+        known_features_button = pickle.load(f2)

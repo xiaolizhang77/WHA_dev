@@ -3,7 +3,18 @@ import const
 import os
 
 
+def adb_connect():
+    if const.adb_port != "":
+        print(f"尝试链接mumu:{const.adb_path}")
+        result = subprocess.run(f"{const.adb_path} connect 127.0.0.1:{const.adb_port}", shell=True, capture_output=True,
+                                text=True)
+        print(result)
+    else:
+        print("模拟器准备完毕")
+
+
 def run_adb_command(command):
+    # print(f"adb path{const.adb_path}")
     full_command = f"{const.adb_path} {command}"
     result = subprocess.run(full_command, shell=True, capture_output=True, text=True)
     if result.returncode != 0:

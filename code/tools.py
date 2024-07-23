@@ -39,6 +39,7 @@ def sleepTime(n):
 
 
 def match_pic(pic_name):
+    print(f"match_pic:{pic_name}")
     current_image = cv.calculate_histogram(f"./pic/{pic_name}")
     b_score = 0
     b_name = ""
@@ -47,11 +48,12 @@ def match_pic(pic_name):
             x, y, w, h = const.known_screenshot_area[screen_name]
             current_area = cv.calculate_area(f"./pic/{pic_name}", x, y, w, h)
             score = cv.compare_area(current_area, known_screenshot_path)
-            print(f"{screen_name}: {score}")
+            if score > 0.95:
+                print(f"area:{screen_name},score: {score}")
         else:
             score = cv.compare_histograms(current_image, known_screenshot_path)
-        if score > 0.95:
-            print(f"{pic_name}: {score}")
+            if score > 0.95:
+                print(f"image:{screen_name},score: {score}")
         if score > b_score:
             b_score = score
             b_name = screen_name
@@ -66,6 +68,27 @@ def match_pics():
     name = get_pic_name()
     adb.get_screen_cut(name)
     return match_pic(name)
+
+
+def match_button(pic: str, button: str):
+    name = get_pic_name()
+    adb.get_screen_cut(name)
+    print(f"match_buttoning:{button}")
+    if match_pic(name) == pic:
+        x, y, w, h = const.button[button]
+        current_area = cv.calculate_area(f"./pic/{name}", x, y, w, h)
+        score = cv.compare_button(current_area, const.known_screenshot_paths[pic])
+        print(f"button:{button},score:{score}")
+        if score > 0.95:
+            return True
+        else:
+            return False
+    else:
+        return False
+
+
+def match_buttons(pic: str):
+    return match_button(pic, pic)
 
 
 def back():
