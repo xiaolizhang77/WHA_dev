@@ -61,8 +61,9 @@ def callNew():
     adb.perform_click(1650, 950)
     tools.sleep()
     if tools.match_pics() == "callNum":
-        tools.press_hold(1150, 520, 3)
-        tools.sleepTime(1)
+        for i in range(5):
+            adb.perform_click(1150, 520)
+            tools.sleepTime(1)
     elif tools.match_pics() == "callMain":
         print("征集信不足")
         return

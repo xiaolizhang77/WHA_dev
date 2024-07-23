@@ -18,3 +18,12 @@ for k, v in const.known_screenshot_area.items():
     features[os.path.basename(image_path)] = cv.calculate_area(image_path, v[0], v[1], v[2], v[3])
 with open(output_file2, 'wb') as f:
     pickle.dump(features, f)
+
+output_file3 = "./known_features_button.pkl"
+features_button = {}
+for k, v in const.button.items():
+    print(f"{k}:{v}")
+    image_path = const.known_screenshot_paths.get(k)
+    features_button[os.path.basename(image_path)] = cv.calculate_area(image_path, v[0], v[1], v[2], v[3])
+with open(output_file3, 'wb') as f:
+    pickle.dump(features_button, f)

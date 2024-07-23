@@ -3,7 +3,7 @@
 
     pip freeze > requirements.txt
 
-main_ui.spec文件中pathex参数为PyQt6绝对路径，配置方法请参照[PyQt6](https://github.com/xiaolizhang77/PyQt6)
+main_ui.spec文件中pathex参数为QTDesigner绝对路径，配置方法请参照[PyQt6](https://github.com/xiaolizhang77/PyQt6)
 \
 生成exe文件：
 

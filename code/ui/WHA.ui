@@ -12,8 +12,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>654</width>
-    <height>498</height>
+    <width>861</width>
+    <height>553</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -48,7 +48,7 @@
    <property name="geometry">
     <rect>
      <x>80</x>
-     <y>410</y>
+     <y>470</y>
      <width>121</width>
      <height>51</height>
     </rect>
@@ -168,7 +168,7 @@
     <rect>
      <x>310</x>
      <y>100</y>
-     <width>331</width>
+     <width>531</width>
      <height>361</height>
     </rect>
    </property>
@@ -226,6 +226,45 @@
    </property>
    <property name="text">
     <string>武器</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_7">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>400</y>
+     <width>79</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>游历</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>40</y>
+     <width>54</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>端口：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>20</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
    </property>
   </widget>
  </widget>

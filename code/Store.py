@@ -4,7 +4,7 @@ import tools
 
 
 def store():
-    print("Buy Package")
+    print("领取礼包")
     try:
         home.returnHome()
     except Exception as e:
@@ -20,7 +20,7 @@ def store():
         adb.perform_click(550, 980)
         tools.sleep()
     else:
-        raise Exception("Buy Package Error")
+        raise Exception("领取礼包失败")
     if tools.match_pics() == "package":
         adb.perform_click(1220, 800)
         tools.sleep()
