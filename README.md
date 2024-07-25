@@ -1,5 +1,5 @@
 # WHA_dev
-![logo](image/logo.png)
+![logo](image/logo.jpeg)
 
 生成对应requirement.txt：
 
