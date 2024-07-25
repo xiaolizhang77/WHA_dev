@@ -1,1 +1,1 @@
-{"path": "\"D:\\MuMu Player 12\\shell\\adb.exe\"", "store": true, "mail": true, "DC": true, "call": true, "fight": true, "award": true, "travel": true, "Money": true, "Book": false, "Weapon": false, "port": "16384"}
+{"path": "\"D:\\MuMu Player 12\\shell\\adb.exe\"", "store": true, "mail": true, "DC": true, "call": true, "fight": true, "award": true, "travel": true, "Money": false, "Book": true, "Weapon": false, "port": "16384"}

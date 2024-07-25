@@ -22,8 +22,8 @@ with open(output_file2, 'wb') as f:
 output_file3 = "./known_features_button.pkl"
 features_button = {}
 for k, v in const.button.items():
-    print(f"{k}:{v}")
+    print(f"{k}:{v[0]},{v[1]}")
     image_path = const.known_screenshot_paths.get(k)
-    features_button[os.path.basename(image_path)] = cv.calculate_area(image_path, v[0], v[1], v[2], v[3])
+    features_button[k] = cv.calculate_area(image_path, v[1][0], v[1][1], v[1][2], v[1][3])
 with open(output_file3, 'wb') as f:
     pickle.dump(features_button, f)

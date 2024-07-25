@@ -64,5 +64,5 @@ def main():
 
 
 if __name__ == "__main__":
-    adb_path = "D:\\leidian\\LDPlayer9\\adb.exe"
+    # adb_path = "D:\\leidian\\LDPlayer9\\adb.exe"
     main()

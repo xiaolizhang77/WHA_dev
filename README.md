@@ -1,4 +1,6 @@
 # WHA_dev
+![logo](image/logo.png)
+
 生成对应requirement.txt：
 
     pip freeze > requirements.txt
