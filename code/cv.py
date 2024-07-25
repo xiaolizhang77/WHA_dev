@@ -44,8 +44,8 @@ def compare_area(hist1, hist2_path):
     return cv2.compareHist(hist1, hist2, cv2.HISTCMP_CORREL)
 
 
-def compare_button(hist1, hist2_path):
-    hist2 = known_features_button[os.path.basename(hist2_path)]
+def compare_button(hist1, hist2):
+    hist2 = known_features_button[hist2]
     return cv2.compareHist(hist1, hist2, cv2.HISTCMP_CORREL)
 
 

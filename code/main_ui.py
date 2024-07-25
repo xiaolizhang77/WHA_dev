@@ -1,8 +1,9 @@
+# -*- coding: utf-8 -*-
 import json
 import os
 import sys
 from functools import partial
-
+from PyQt6.QtGui import QIcon
 from PyQt6 import uic
 from PyQt6.QtCore import pyqtSignal, QObject, QThread
 from PyQt6.QtWidgets import QApplication, QLineEdit, QPushButton, QCheckBox, QTextEdit
@@ -129,6 +130,7 @@ if __name__ == "__main__":
         os.remove(LOG_FILE)
     # adb_path = "D:\\leidian\\LDPlayer9\\adb.exe"
     app = QApplication(sys.argv)
+    app.setWindowIcon(QIcon('logo.ico'))  # 设置任务栏图标
     ui = uic.loadUi("./ui/WHA.ui")
     lineEdit: QLineEdit = ui.lineEdit
     checkBox: QCheckBox = ui.checkBox

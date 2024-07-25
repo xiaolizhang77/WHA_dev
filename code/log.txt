@@ -1,17 +1,1049 @@
 虚拟机启动！:"D:\MuMu Player 12\shell\adb.exe";16384
 配置完成
 尝试链接mumu:"D:\MuMu Player 12\shell\adb.exe"
-CompletedProcess(args='"D:\\MuMu Player 12\\shell\\adb.exe" connect 127.0.0.1:16384', returncode=0, stdout='already connected to 127.0.0.1:16384\n', stderr='')
+CompletedProcess(args='"D:\\MuMu Player 12\\shell\\adb.exe" connect 127.0.0.1:16384', returncode=0, stdout='connected to 127.0.0.1:16384\n', stderr='')
 Physical size: 1080x1920
 
+Deleted: ./pic\screenshot_20240725_153607.png
+Deleted: ./pic\screenshot_20240725_153609.png
+Deleted: ./pic\screenshot_20240725_153615.png
+Deleted: ./pic\screenshot_20240725_153621.png
+Deleted: ./pic\screenshot_20240725_153627.png
+Deleted: ./pic\screenshot_20240725_153633.png
+Deleted: ./pic\screenshot_20240725_153639.png
 领取礼包
 
-/sdcard/screenshot_20240723_173353.png: 1 file pulled, 0 skipped. 52.1 MB/s (2281686 bytes in 0.042s)
+/sdcard/screenshot_20240725_171159.png: 1 file pulled, 0 skipped. 42.0 MB/s (2775789 bytes in 0.063s)
 
 
-match_pic:screenshot_20240723_173353.png
-area:home,score: 0.987069096213631
-area:office,score: 0.9663426497722282
-Current screen is: $home$, score: 0.987069096213631
+match_pic:screenshot_20240725_171159.png
+area:home,score: 0.9892546210450198
+area:fight,score: 0.9658839280568512
+Current screen is: $home$, score: 0.9892546210450198
 这是主页
 
+
+
+/sdcard/screenshot_20240725_171208.png: 1 file pulled, 0 skipped. 60.9 MB/s (2003523 bytes in 0.031s)
+
+
+match_pic:screenshot_20240725_171208.png
+area:store,score: 0.9999999941610481
+area:mail,score: 0.9864209533070075
+Current screen is: $store$, score: 0.9999999941610481
+
+
+
+/sdcard/screenshot_20240725_171217.png: 1 file pulled, 0 skipped. 40.1 MB/s (1456972 bytes in 0.035s)
+
+
+match_pic:screenshot_20240725_171217.png
+area:package,score: 0.9999998307867815
+Current screen is: $package$, score: 0.9999998307867815
+
+
+Deleted: ./pic\screenshot_20240725_171159.png
+Deleted: ./pic\screenshot_20240725_171208.png
+Deleted: ./pic\screenshot_20240725_171217.png
+
+/sdcard/screenshot_20240725_171226.png: 1 file pulled, 0 skipped. 42.2 MB/s (1857864 bytes in 0.042s)
+
+
+match_pic:screenshot_20240725_171226.png
+area:store,score: 0.9999999941610481
+area:mail,score: 0.9864209533070075
+Current screen is: $store$, score: 0.9999999941610481
+
+
+/sdcard/screenshot_20240725_171232.png: 1 file pulled, 0 skipped. 51.2 MB/s (2759563 bytes in 0.051s)
+
+
+match_pic:screenshot_20240725_171232.png
+area:home,score: 0.9955700641707999
+area:fight,score: 0.9658839280568512
+Current screen is: $home$, score: 0.9955700641707999
+这是主页
+
+
+/sdcard/screenshot_20240725_171238.png: 1 file pulled, 0 skipped. 51.8 MB/s (980755 bytes in 0.018s)
+
+
+match_pic:screenshot_20240725_171238.png
+area:store,score: 0.9864095520113001
+area:mail,score: 0.9999999979087157
+Current screen is: $mail$, score: 0.9999999979087157
+
+
+/sdcard/screenshot_20240725_171242.png: 1 file pulled, 0 skipped. 54.4 MB/s (980716 bytes in 0.017s)
+
+
+match_pic:screenshot_20240725_171242.png
+area:store,score: 0.9864095520113001
+area:mail,score: 0.9999999979087157
+Current screen is: $mail$, score: 0.9999999979087157
+
+
+/sdcard/screenshot_20240725_171247.png: 1 file pulled, 0 skipped. 62.5 MB/s (2769952 bytes in 0.042s)
+
+
+match_pic:screenshot_20240725_171247.png
+area:home,score: 0.98711349184136
+area:fight,score: 0.9659573667509908
+Current screen is: $home$, score: 0.98711349184136
+这是主页
+Deleted: ./pic\screenshot_20240725_171226.png
+Deleted: ./pic\screenshot_20240725_171232.png
+Deleted: ./pic\screenshot_20240725_171238.png
+Deleted: ./pic\screenshot_20240725_171242.png
+Deleted: ./pic\screenshot_20240725_171247.png
+
+/sdcard/screenshot_20240725_171250.png: 1 file pulled, 0 skipped. 44.1 MB/s (2771876 bytes in 0.060s)
+
+
+match_pic:screenshot_20240725_171250.png
+area:home,score: 0.9870777683777854
+area:fight,score: 0.9658839280568512
+Current screen is: $home$, score: 0.9870777683777854
+
+/sdcard/screenshot_20240725_171253.png: 1 file pulled, 0 skipped. 63.8 MB/s (2761027 bytes in 0.041s)
+
+
+match_pic:screenshot_20240725_171253.png
+area:home,score: 0.9870774528711124
+area:fight,score: 0.9658839280568512
+Current screen is: $home$, score: 0.9870774528711124
+这是主页
+
+
+/sdcard/screenshot_20240725_171259.png: 1 file pulled, 0 skipped. 51.7 MB/s (2273794 bytes in 0.042s)
+
+
+match_pic:screenshot_20240725_171259.png
+image:dispatchCompany,score: 0.999954308801057
+Current screen is: $dispatchCompany$, score: 0.999954308801057
+进入派遣公司
+
+
+
+/sdcard/screenshot_20240725_171308.png: 1 file pulled, 0 skipped. 41.4 MB/s (2274727 bytes in 0.052s)
+
+
+match_pic:screenshot_20240725_171308.png
+image:dispatchCompany,score: 0.9998749719614664
+Current screen is: $dispatchCompany$, score: 0.9998749719614664
+进入派遣公司
+
+
+
+/sdcard/screenshot_20240725_171317.png: 1 file pulled, 0 skipped. 37.2 MB/s (2273979 bytes in 0.058s)
+
+
+match_pic:screenshot_20240725_171317.png
+image:dispatchCompany,score: 0.9998846654120294
+Current screen is: $dispatchCompany$, score: 0.9998846654120294
+进入派遣公司
+
+
+获取资源
+
+/sdcard/screenshot_20240725_171326.png: 1 file pulled, 0 skipped. 63.2 MB/s (2272158 bytes in 0.034s)
+
+
+match_pic:screenshot_20240725_171326.png
+image:dispatchCompany,score: 0.9998502867173936
+Current screen is: $dispatchCompany$, score: 0.9998502867173936
+
+/sdcard/screenshot_20240725_171328.png: 1 file pulled, 0 skipped. 53.7 MB/s (2274832 bytes in 0.040s)
+
+
+match_pic:screenshot_20240725_171328.png
+image:dispatchCompany,score: 0.9998725226039931
+Current screen is: $dispatchCompany$, score: 0.9998725226039931
+进入派遣公司
+
+
+/sdcard/screenshot_20240725_171334.png: 1 file pulled, 0 skipped. 51.6 MB/s (2202719 bytes in 0.041s)
+
+
+match_pic:screenshot_20240725_171334.png
+area:office,score: 0.9960043916835876
+Current screen is: $office$, score: 0.9960043916835876
+进入办公室
+
+
+/sdcard/screenshot_20240725_171342.png: 1 file pulled, 0 skipped. 37.3 MB/s (1700328 bytes in 0.043s)
+
+
+match_pic:screenshot_20240725_171342.png
+image:getThings,score: 0.9570020245955735
+image:machine,score: 0.9999646988831531
+image:callNum,score: 0.9630761927401186
+Current screen is: $machine$, score: 0.9999646988831531
+
+
+开扭
+扭蛋机完成
+
+
+/sdcard/screenshot_20240725_171355.png: 1 file pulled, 0 skipped. 43.4 MB/s (2273414 bytes in 0.050s)
+
+
+match_pic:screenshot_20240725_171355.png
+image:dispatchCompany,score: 0.9997041511839931
+Current screen is: $dispatchCompany$, score: 0.9997041511839931
+进入派遣公司
+
+
+喝茶
+
+/sdcard/screenshot_20240725_171403.png: 1 file pulled, 0 skipped. 58.5 MB/s (1584330 bytes in 0.026s)
+
+
+match_pic:screenshot_20240725_171403.png
+image:dormitory,score: 0.9921890355725381
+Current screen is: $dormitory$, score: 0.9921890355725381
+
+/sdcard/screenshot_20240725_171406.png: 1 file pulled, 0 skipped. 38.9 MB/s (1665941 bytes in 0.041s)
+
+
+match_pic:screenshot_20240725_171406.png
+image:dormitory,score: 0.9935039581746609
+Current screen is: $dormitory$, score: 0.9935039581746609
+
+
+/sdcard/screenshot_20240725_171413.png: 1 file pulled, 0 skipped. 59.1 MB/s (2270330 bytes in 0.037s)
+
+
+match_pic:screenshot_20240725_171413.png
+image:dispatchCompany,score: 0.9996944360263338
+Current screen is: $dispatchCompany$, score: 0.9996944360263338
+
+
+/sdcard/screenshot_20240725_171418.png: 1 file pulled, 0 skipped. 56.3 MB/s (2643864 bytes in 0.045s)
+
+
+match_pic:screenshot_20240725_171418.png
+area:home,score: 0.9870749339463686
+area:fight,score: 0.9659019384652802
+Current screen is: $home$, score: 0.9870749339463686
+这是主页
+
+
+/sdcard/screenshot_20240725_171424.png: 1 file pulled, 0 skipped. 48.6 MB/s (2269115 bytes in 0.044s)
+
+
+match_pic:screenshot_20240725_171424.png
+image:dispatchCompany,score: 0.9998766162879988
+Current screen is: $dispatchCompany$, score: 0.9998766162879988
+进入派遣公司
+
+
+/sdcard/screenshot_20240725_171430.png: 1 file pulled, 0 skipped. 54.7 MB/s (2162909 bytes in 0.038s)
+
+
+match_pic:screenshot_20240725_171430.png
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+
+
+/sdcard/screenshot_20240725_171435.png: 1 file pulled, 0 skipped. 46.5 MB/s (1665342 bytes in 0.034s)
+
+
+match_buttoning:teaChoice
+match_pic:screenshot_20240725_171435.png
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaChoice,score:0.9999978870420281
+
+
+
+/sdcard/screenshot_20240725_171446.png: 1 file pulled, 0 skipped. 39.4 MB/s (2047604 bytes in 0.050s)
+
+
+match_buttoning:teaWait
+match_pic:screenshot_20240725_171446.png
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaWait,score:0.9999991828600505
+
+/sdcard/screenshot_20240725_171455.png: 1 file pulled, 0 skipped. 39.9 MB/s (1709580 bytes in 0.041s)
+
+
+match_pic:screenshot_20240725_171455.png
+area:bookChange,score: 0.9765016123440993
+area:confirmItem,score: 0.9767837444117883
+area:fight,score: 0.9547405687919385
+area:heartFull,score: 0.9765735522958979
+area:teaGet,score: 0.9999981087140056
+Current screen is: $teaGet$, score: 0.9999981087140056
+
+
+
+/sdcard/screenshot_20240725_171504.png: 1 file pulled, 0 skipped. 46.6 MB/s (1977661 bytes in 0.040s)
+
+
+match_buttoning:teaInvite
+match_pic:screenshot_20240725_171504.png
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaInvite,score:0.01739542221113763
+
+
+/sdcard/screenshot_20240725_171510.png: 1 file pulled, 0 skipped. 42.4 MB/s (1966451 bytes in 0.044s)
+
+
+match_buttoning:teaInvite
+match_pic:screenshot_20240725_171510.png
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaInvite,score:0.01739542221113763
+
+
+/sdcard/screenshot_20240725_171515.png: 1 file pulled, 0 skipped. 58.7 MB/s (1978409 bytes in 0.032s)
+
+
+match_buttoning:teaInvite
+match_pic:screenshot_20240725_171515.png
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaInvite,score:0.01739542221113763
+
+
+/sdcard/screenshot_20240725_171521.png: 1 file pulled, 0 skipped. 50.4 MB/s (1958428 bytes in 0.037s)
+
+
+match_buttoning:teaInvite
+match_pic:screenshot_20240725_171521.png
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaInvite,score:0.01739542221113763
+
+
+/sdcard/screenshot_20240725_171527.png: 1 file pulled, 0 skipped. 39.3 MB/s (1969795 bytes in 0.048s)
+
+
+match_buttoning:teaInvite
+match_pic:screenshot_20240725_171527.png
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaInvite,score:0.01595586172721856
+
+
+/sdcard/screenshot_20240725_171532.png: 1 file pulled, 0 skipped. 45.5 MB/s (1964395 bytes in 0.041s)
+
+
+match_buttoning:teaInvite
+match_pic:screenshot_20240725_171532.png
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaInvite,score:0.01739542221113763
+
+
+/sdcard/screenshot_20240725_171538.png: 1 file pulled, 0 skipped. 42.3 MB/s (1970775 bytes in 0.044s)
+
+
+match_buttoning:teaInvite
+match_pic:screenshot_20240725_171538.png
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaInvite,score:0.01595586172721856
+
+
+/sdcard/screenshot_20240725_171544.png: 1 file pulled, 0 skipped. 45.7 MB/s (2017635 bytes in 0.042s)
+
+
+match_buttoning:teaInvite
+match_pic:screenshot_20240725_171544.png
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaInvite,score:0.9999995315852863
+
+
+/sdcard/screenshot_20240725_171556.png: 1 file pulled, 0 skipped. 32.9 MB/s (1470448 bytes in 0.043s)
+
+
+match_pic:screenshot_20240725_171556.png
+area:teaTalk,score: 0.9838175775871398
+Current screen is: $teaTalk$, score: 0.9838175775871398
+
+
+
+/sdcard/screenshot_20240725_171604.png: 1 file pulled, 0 skipped. 45.7 MB/s (1909536 bytes in 0.040s)
+
+
+match_pic:screenshot_20240725_171604.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+
+
+
+/sdcard/screenshot_20240725_171612.png: 1 file pulled, 0 skipped. 43.7 MB/s (1567383 bytes in 0.034s)
+
+
+match_pic:screenshot_20240725_171612.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+
+
+
+/sdcard/screenshot_20240725_171620.png: 1 file pulled, 0 skipped. 49.7 MB/s (1920496 bytes in 0.037s)
+
+
+match_pic:screenshot_20240725_171620.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+
+
+
+/sdcard/screenshot_20240725_171629.png: 1 file pulled, 0 skipped. 38.9 MB/s (1562195 bytes in 0.038s)
+
+
+match_pic:screenshot_20240725_171629.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+
+
+
+/sdcard/screenshot_20240725_171637.png: 1 file pulled, 0 skipped. 55.7 MB/s (1916467 bytes in 0.033s)
+
+
+match_pic:screenshot_20240725_171637.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+
+
+
+/sdcard/screenshot_20240725_171645.png: 1 file pulled, 0 skipped. 58.2 MB/s (1910944 bytes in 0.031s)
+
+
+match_pic:screenshot_20240725_171645.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+
+
+
+/sdcard/screenshot_20240725_171654.png: 1 file pulled, 0 skipped. 58.1 MB/s (1925458 bytes in 0.032s)
+
+
+match_pic:screenshot_20240725_171654.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+
+
+
+/sdcard/screenshot_20240725_171702.png: 1 file pulled, 0 skipped. 54.3 MB/s (1910453 bytes in 0.034s)
+
+
+match_pic:screenshot_20240725_171702.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+
+
+
+/sdcard/screenshot_20240725_171711.png: 1 file pulled, 0 skipped. 41.4 MB/s (1922107 bytes in 0.044s)
+
+
+match_pic:screenshot_20240725_171711.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+
+
+
+/sdcard/screenshot_20240725_171719.png: 1 file pulled, 0 skipped. 52.4 MB/s (1549683 bytes in 0.028s)
+
+
+match_pic:screenshot_20240725_171719.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+
+
+
+/sdcard/screenshot_20240725_171727.png: 1 file pulled, 0 skipped. 43.8 MB/s (1910437 bytes in 0.042s)
+
+
+match_pic:screenshot_20240725_171727.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+
+
+
+/sdcard/screenshot_20240725_171736.png: 1 file pulled, 0 skipped. 54.0 MB/s (1514037 bytes in 0.027s)
+
+
+match_pic:screenshot_20240725_171736.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+
+
+
+/sdcard/screenshot_20240725_171744.png: 1 file pulled, 0 skipped. 41.3 MB/s (841858 bytes in 0.019s)
+
+
+match_pic:screenshot_20240725_171744.png
+image:ld_home,score: 0.9631153724077322
+image:confirmCall3,score: 0.95690578188988
+image:confirmCall4,score: 0.9620066134737812
+image:confirmCall6,score: 0.9657756662640258
+Current screen is: $confirmCall6$, score: 0.9657756662640258
+喝茶结束
+
+/sdcard/screenshot_20240725_171746.png: 1 file pulled, 0 skipped. 68.9 MB/s (841858 bytes in 0.012s)
+
+
+match_pic:screenshot_20240725_171746.png
+image:ld_home,score: 0.9631153724077322
+image:confirmCall3,score: 0.95690578188988
+image:confirmCall4,score: 0.9620066134737812
+image:confirmCall6,score: 0.9657756662640258
+Current screen is: $confirmCall6$, score: 0.9657756662640258
+进入茶室失败
+Deleted: ./pic\screenshot_20240725_171250.png
+Deleted: ./pic\screenshot_20240725_171253.png
+Deleted: ./pic\screenshot_20240725_171259.png
+Deleted: ./pic\screenshot_20240725_171308.png
+Deleted: ./pic\screenshot_20240725_171317.png
+Deleted: ./pic\screenshot_20240725_171326.png
+Deleted: ./pic\screenshot_20240725_171328.png
+Deleted: ./pic\screenshot_20240725_171334.png
+Deleted: ./pic\screenshot_20240725_171342.png
+Deleted: ./pic\screenshot_20240725_171355.png
+Deleted: ./pic\screenshot_20240725_171403.png
+Deleted: ./pic\screenshot_20240725_171406.png
+Deleted: ./pic\screenshot_20240725_171413.png
+Deleted: ./pic\screenshot_20240725_171418.png
+Deleted: ./pic\screenshot_20240725_171424.png
+Deleted: ./pic\screenshot_20240725_171430.png
+Deleted: ./pic\screenshot_20240725_171435.png
+Deleted: ./pic\screenshot_20240725_171446.png
+Deleted: ./pic\screenshot_20240725_171455.png
+Deleted: ./pic\screenshot_20240725_171504.png
+Deleted: ./pic\screenshot_20240725_171510.png
+Deleted: ./pic\screenshot_20240725_171515.png
+Deleted: ./pic\screenshot_20240725_171521.png
+Deleted: ./pic\screenshot_20240725_171527.png
+Deleted: ./pic\screenshot_20240725_171532.png
+Deleted: ./pic\screenshot_20240725_171538.png
+Deleted: ./pic\screenshot_20240725_171544.png
+Deleted: ./pic\screenshot_20240725_171556.png
+Deleted: ./pic\screenshot_20240725_171604.png
+Deleted: ./pic\screenshot_20240725_171612.png
+Deleted: ./pic\screenshot_20240725_171620.png
+Deleted: ./pic\screenshot_20240725_171629.png
+Deleted: ./pic\screenshot_20240725_171637.png
+Deleted: ./pic\screenshot_20240725_171645.png
+Deleted: ./pic\screenshot_20240725_171654.png
+Deleted: ./pic\screenshot_20240725_171702.png
+Deleted: ./pic\screenshot_20240725_171711.png
+Deleted: ./pic\screenshot_20240725_171719.png
+Deleted: ./pic\screenshot_20240725_171727.png
+Deleted: ./pic\screenshot_20240725_171736.png
+Deleted: ./pic\screenshot_20240725_171744.png
+Deleted: ./pic\screenshot_20240725_171746.png
+
+/sdcard/screenshot_20240725_171747.png: 1 file pulled, 0 skipped. 56.2 MB/s (841858 bytes in 0.014s)
+
+
+match_pic:screenshot_20240725_171747.png
+image:ld_home,score: 0.9631153724077322
+image:confirmCall3,score: 0.95690578188988
+image:confirmCall4,score: 0.9620066134737812
+image:confirmCall6,score: 0.9657756662640258
+Current screen is: $confirmCall6$, score: 0.9657756662640258
+
+
+/sdcard/screenshot_20240725_171752.png: 1 file pulled, 0 skipped. 51.5 MB/s (2112885 bytes in 0.039s)
+
+
+match_pic:screenshot_20240725_171752.png
+area:teaHouse,score: 0.9999478590323657
+Current screen is: $teaHouse$, score: 0.9999478590323657
+
+
+/sdcard/screenshot_20240725_171757.png: 1 file pulled, 0 skipped. 48.7 MB/s (2269913 bytes in 0.044s)
+
+
+match_pic:screenshot_20240725_171757.png
+image:dispatchCompany,score: 0.9997262432280057
+Current screen is: $dispatchCompany$, score: 0.9997262432280057
+
+
+/sdcard/screenshot_20240725_171803.png: 1 file pulled, 0 skipped. 57.0 MB/s (2627950 bytes in 0.044s)
+
+
+match_pic:screenshot_20240725_171803.png
+area:home,score: 0.9874681165200982
+area:fight,score: 0.9658839280568512
+Current screen is: $home$, score: 0.9874681165200982
+这是主页
+
+/sdcard/screenshot_20240725_171806.png: 1 file pulled, 0 skipped. 65.0 MB/s (2759679 bytes in 0.040s)
+
+
+match_pic:screenshot_20240725_171806.png
+area:home,score: 0.987438879964812
+area:fight,score: 0.9658839280568512
+Current screen is: $home$, score: 0.987438879964812
+
+/sdcard/screenshot_20240725_171809.png: 1 file pulled, 0 skipped. 63.5 MB/s (2768149 bytes in 0.042s)
+
+
+match_pic:screenshot_20240725_171809.png
+area:home,score: 0.9870763100063481
+area:fight,score: 0.9658993542696461
+Current screen is: $home$, score: 0.9870763100063481
+这是主页
+
+
+/sdcard/screenshot_20240725_171815.png: 1 file pulled, 0 skipped. 51.9 MB/s (1811067 bytes in 0.033s)
+
+
+match_pic:screenshot_20240725_171815.png
+image:getThings,score: 0.9586351720290859
+image:callMain,score: 0.9591561885255565
+image:confirmCall1,score: 0.9763177648590607
+area:store,score: 0.9536509507945556
+Current screen is: $confirmCall1$, score: 0.9763177648590607
+
+
+/sdcard/screenshot_20240725_171820.png: 1 file pulled, 0 skipped. 44.5 MB/s (1718542 bytes in 0.037s)
+
+
+match_pic:screenshot_20240725_171820.png
+image:confirmCall2,score: 0.995457239899447
+Current screen is: $confirmCall2$, score: 0.995457239899447
+
+
+/sdcard/screenshot_20240725_171824.png: 1 file pulled, 0 skipped. 53.5 MB/s (2314561 bytes in 0.041s)
+
+
+match_pic:screenshot_20240725_171824.png
+image:ld_home,score: 0.9824327877162642
+area:office,score: 0.994885140966918
+area:bookChange,score: 0.9606525616724584
+area:confirmItem,score: 0.9606948560900349
+image:confirmCall3,score: 0.9999962281729091
+image:confirmCall4,score: 0.9989564708938883
+image:confirmCall5,score: 0.97084870635083
+image:confirmCall6,score: 0.9790896889675055
+area:heartFull,score: 0.9606331261699713
+Current screen is: $confirmCall3$, score: 0.9999962281729091
+
+/sdcard/screenshot_20240725_171827.png: 1 file pulled, 0 skipped. 53.8 MB/s (2230963 bytes in 0.040s)
+
+
+match_pic:screenshot_20240725_171827.png
+image:ld_home,score: 0.9882021428560052
+area:office,score: 0.994753063764445
+image:confirmCall3,score: 0.9974443750366037
+image:confirmCall4,score: 0.9993629752440337
+image:confirmCall5,score: 0.9758398659666502
+image:confirmCall6,score: 0.9842807811648321
+Current screen is: $confirmCall4$, score: 0.9993629752440337
+
+
+/sdcard/screenshot_20240725_171830.png: 1 file pulled, 0 skipped. 45.0 MB/s (2398186 bytes in 0.051s)
+
+
+match_pic:screenshot_20240725_171830.png
+image:ld_home,score: 0.9720178667916809
+image:confirmCall3,score: 0.9785029985391337
+image:confirmCall4,score: 0.9813497259661075
+image:confirmCall5,score: 0.9925756069190128
+image:confirmCall6,score: 0.9818486052641474
+Current screen is: $confirmCall5$, score: 0.9925756069190128
+
+
+/sdcard/screenshot_20240725_171832.png: 1 file pulled, 0 skipped. 49.4 MB/s (1831928 bytes in 0.035s)
+
+
+match_pic:screenshot_20240725_171832.png
+
+/sdcard/screenshot_20240725_171841.png: 1 file pulled, 0 skipped. 45.6 MB/s (1211463 bytes in 0.025s)
+
+
+match_pic:screenshot_20240725_171841.png
+image:getThings,score: 0.9578130353071775
+image:callMain,score: 0.9543955816318035
+image:callEnd,score: 0.9979412248610525
+image:confirmCall0,score: 0.9707502618835185
+image:confirmCall7,score: 0.9978553511010474
+area:callEnd2,score: 0.9999999856391714
+Current screen is: $callEnd2$, score: 0.9999999856391714
+
+
+/sdcard/screenshot_20240725_171849.png: 1 file pulled, 0 skipped. 46.8 MB/s (1793669 bytes in 0.037s)
+
+
+match_pic:screenshot_20240725_171849.png
+image:getThings,score: 0.9724894935812631
+image:machine,score: 0.9578909721296218
+image:callNum,score: 0.9714254256349119
+image:confirmCall7,score: 0.9533547491463883
+Current screen is: $getThings$, score: 0.9724894935812631
+
+/sdcard/screenshot_20240725_171851.png: 1 file pulled, 0 skipped. 45.5 MB/s (1794178 bytes in 0.038s)
+
+
+match_pic:screenshot_20240725_171851.png
+image:getThings,score: 0.9725453645722143
+image:machine,score: 0.9579315950489653
+image:callNum,score: 0.9714927194604298
+image:confirmCall7,score: 0.9534387616568224
+Current screen is: $getThings$, score: 0.9725453645722143
+
+
+/sdcard/screenshot_20240725_171856.png: 1 file pulled, 0 skipped. 49.3 MB/s (2780683 bytes in 0.054s)
+
+
+match_pic:screenshot_20240725_171856.png
+image:getThings,score: 0.9697153145327448
+image:callMain,score: 0.9999999752730779
+image:callNum,score: 0.9503012210883243
+image:confirmCall7,score: 0.9568146417787751
+area:store,score: 0.9536509507945556
+Current screen is: $callMain$, score: 0.9999999752730779
+
+
+/sdcard/screenshot_20240725_171902.png: 1 file pulled, 0 skipped. 57.7 MB/s (2765493 bytes in 0.046s)
+
+
+match_pic:screenshot_20240725_171902.png
+area:home,score: 0.9935845256965978
+area:fight,score: 0.9658839280568512
+Current screen is: $home$, score: 0.9935845256965978
+这是主页
+
+
+/sdcard/screenshot_20240725_171908.png: 1 file pulled, 0 skipped. 55.6 MB/s (2780683 bytes in 0.048s)
+
+
+match_pic:screenshot_20240725_171908.png
+image:getThings,score: 0.9697153145327448
+image:callMain,score: 0.9999999752730779
+image:callNum,score: 0.9503012210883243
+image:confirmCall7,score: 0.9568146417787751
+area:store,score: 0.9536509507945556
+Current screen is: $callMain$, score: 0.9999999752730779
+
+
+/sdcard/screenshot_20240725_171914.png: 1 file pulled, 0 skipped. 37.7 MB/s (1649393 bytes in 0.042s)
+
+
+match_pic:screenshot_20240725_171914.png
+image:getThings,score: 0.9881770034327813
+area:bookChange,score: 0.9952698498744015
+image:machine,score: 0.963184306515656
+area:confirmItem,score: 0.9952828219363348
+image:callMain,score: 0.9557144940431986
+image:callNum,score: 0.998992718707623
+area:heartFull,score: 0.9952822004482024
+Current screen is: $callNum$, score: 0.998992718707623
+
+
+
+
+
+
+/sdcard/screenshot_20240725_171922.png: 1 file pulled, 0 skipped. 58.6 MB/s (1658501 bytes in 0.027s)
+
+
+match_pic:screenshot_20240725_171922.png
+image:getThings,score: 0.9837426501571279
+area:bookChange,score: 0.9721513121390423
+image:machine,score: 0.9620717929927589
+area:confirmItem,score: 0.9721706827009456
+image:callMain,score: 0.950269516612384
+image:callNum,score: 0.9999999963041958
+area:heartFull,score: 0.9721925061231057
+Current screen is: $callNum$, score: 0.9999999963041958
+
+
+/sdcard/screenshot_20240725_171925.png: 1 file pulled, 0 skipped. 50.8 MB/s (1857221 bytes in 0.035s)
+
+
+match_pic:screenshot_20240725_171925.png
+image:callMain,score: 0.9500861262404081
+image:callEnd,score: 0.970700732487199
+image:confirmCall0,score: 0.9909158768639604
+image:confirmCall7,score: 0.9655405739500533
+area:store,score: 0.9536509507945556
+Current screen is: $confirmCall0$, score: 0.9909158768639604
+
+
+/sdcard/screenshot_20240725_171930.png: 1 file pulled, 0 skipped. 54.2 MB/s (2758979 bytes in 0.049s)
+
+
+match_pic:screenshot_20240725_171930.png
+area:home,score: 0.9968642079738522
+area:fight,score: 0.9658839280568512
+Current screen is: $home$, score: 0.9968642079738522
+这是主页
+Deleted: ./pic\screenshot_20240725_171747.png
+Deleted: ./pic\screenshot_20240725_171752.png
+Deleted: ./pic\screenshot_20240725_171757.png
+Deleted: ./pic\screenshot_20240725_171803.png
+Deleted: ./pic\screenshot_20240725_171806.png
+Deleted: ./pic\screenshot_20240725_171809.png
+Deleted: ./pic\screenshot_20240725_171815.png
+Deleted: ./pic\screenshot_20240725_171820.png
+Deleted: ./pic\screenshot_20240725_171824.png
+Deleted: ./pic\screenshot_20240725_171827.png
+Deleted: ./pic\screenshot_20240725_171830.png
+Deleted: ./pic\screenshot_20240725_171832.png
+Deleted: ./pic\screenshot_20240725_171841.png
+Deleted: ./pic\screenshot_20240725_171849.png
+Deleted: ./pic\screenshot_20240725_171851.png
+Deleted: ./pic\screenshot_20240725_171856.png
+Deleted: ./pic\screenshot_20240725_171902.png
+Deleted: ./pic\screenshot_20240725_171908.png
+Deleted: ./pic\screenshot_20240725_171914.png
+Deleted: ./pic\screenshot_20240725_171922.png
+Deleted: ./pic\screenshot_20240725_171925.png
+Deleted: ./pic\screenshot_20240725_171930.png
+fight start
+
+/sdcard/screenshot_20240725_171933.png: 1 file pulled, 0 skipped. 56.0 MB/s (2757711 bytes in 0.047s)
+
+
+match_pic:screenshot_20240725_171933.png
+area:home,score: 0.9932802019225635
+area:fight,score: 0.9658839280568512
+Current screen is: $home$, score: 0.9932802019225635
+这是主页
+
+
+/sdcard/screenshot_20240725_171939.png: 1 file pulled, 0 skipped. 44.9 MB/s (2354397 bytes in 0.050s)
+
+
+match_pic:screenshot_20240725_171939.png
+area:fight,score: 0.9999987836952567
+Current screen is: $fight$, score: 0.9999987836952567
+
+
+
+/sdcard/screenshot_20240725_171948.png: 1 file pulled, 0 skipped. 50.4 MB/s (2078504 bytes in 0.039s)
+
+
+match_pic:screenshot_20240725_171948.png
+image:fightBook,score: 0.9999998568150601
+Current screen is: $fightBook$, score: 0.9999998568150601
+
+
+/sdcard/screenshot_20240725_171953.png: 1 file pulled, 0 skipped. 48.0 MB/s (1543434 bytes in 0.031s)
+
+
+match_pic:screenshot_20240725_171953.png
+area:fightMoneyFive,score: 0.9999962928992335
+area:fightBookFive,score: 0.9999999917028631
+area:fightWeaponFive,score: 0.999999448408977
+Current screen is: $fightBookFive$, score: 0.9999999917028631
+
+
+/sdcard/screenshot_20240725_171958.png: 1 file pulled, 0 skipped. 48.8 MB/s (1430855 bytes in 0.028s)
+
+
+match_pic:screenshot_20240725_171958.png
+area:fightMoneyNum,score: 0.9954217274355793
+area:fightBookNum,score: 0.9999995084030532
+Current screen is: $fightBookNum$, score: 0.9999995084030532
+
+
+/sdcard/screenshot_20240725_172006.png: 1 file pulled, 0 skipped. 42.5 MB/s (1430098 bytes in 0.032s)
+
+
+match_pic:screenshot_20240725_172006.png
+area:fightMoneyNum,score: 0.995546149272863
+area:fightBookNum,score: 0.999993085660554
+Current screen is: $fightBookNum$, score: 0.999993085660554
+
+
+/sdcard/screenshot_20240725_172011.png: 1 file pulled, 0 skipped. 48.2 MB/s (1272258 bytes in 0.025s)
+
+
+match_pic:screenshot_20240725_172011.png
+Current screen is: $fightEnd$, score: 0.9327594003194549
+
+/sdcard/screenshot_20240725_172016.png: 1 file pulled, 0 skipped. 56.9 MB/s (1398209 bytes in 0.023s)
+
+
+match_pic:screenshot_20240725_172016.png
+area:fightEnd,score: 0.9914626234928279
+Current screen is: $fightEnd$, score: 0.9914626234928279
+
+/sdcard/screenshot_20240725_172018.png: 1 file pulled, 0 skipped. 51.9 MB/s (1395717 bytes in 0.026s)
+
+
+match_pic:screenshot_20240725_172018.png
+area:fightEnd,score: 0.9643045068674766
+Current screen is: $fightEnd$, score: 0.9643045068674766
+
+Deleted: ./pic\screenshot_20240725_171933.png
+Deleted: ./pic\screenshot_20240725_171939.png
+Deleted: ./pic\screenshot_20240725_171948.png
+Deleted: ./pic\screenshot_20240725_171953.png
+Deleted: ./pic\screenshot_20240725_171958.png
+Deleted: ./pic\screenshot_20240725_172006.png
+Deleted: ./pic\screenshot_20240725_172011.png
+Deleted: ./pic\screenshot_20240725_172016.png
+Deleted: ./pic\screenshot_20240725_172018.png
+Award
+
+/sdcard/screenshot_20240725_172026.png: 1 file pulled, 0 skipped. 52.5 MB/s (1539554 bytes in 0.028s)
+
+
+match_pic:screenshot_20240725_172026.png
+area:fightMoneyFive,score: 0.9999962928992335
+area:fightBookFive,score: 0.9999999917028631
+area:fightWeaponFive,score: 0.999999448408977
+Current screen is: $fightBookFive$, score: 0.9999999917028631
+
+
+/sdcard/screenshot_20240725_172031.png: 1 file pulled, 0 skipped. 51.2 MB/s (2078172 bytes in 0.039s)
+
+
+match_pic:screenshot_20240725_172031.png
+image:fightBook,score: 0.9999956683464922
+Current screen is: $fightBook$, score: 0.9999956683464922
+
+
+/sdcard/screenshot_20240725_172036.png: 1 file pulled, 0 skipped. 57.0 MB/s (2351714 bytes in 0.039s)
+
+
+match_pic:screenshot_20240725_172036.png
+area:fight,score: 0.9981160396114337
+Current screen is: $fight$, score: 0.9981160396114337
+
+
+/sdcard/screenshot_20240725_172042.png: 1 file pulled, 0 skipped. 49.5 MB/s (2629646 bytes in 0.051s)
+
+
+match_pic:screenshot_20240725_172042.png
+area:home,score: 0.9870761829180573
+area:fight,score: 0.9658839280568512
+Current screen is: $home$, score: 0.9870761829180573
+这是主页
+
+
+/sdcard/screenshot_20240725_172048.png: 1 file pulled, 0 skipped. 43.4 MB/s (2362093 bytes in 0.052s)
+
+
+match_pic:screenshot_20240725_172048.png
+area:dailyAward,score: 0.9999999844509063
+area:weeklyAward,score: 0.9998492842259294
+Current screen is: $dailyAward$, score: 0.9999999844509063
+
+
+
+
+
+/sdcard/screenshot_20240725_172103.png: 1 file pulled, 0 skipped. 44.3 MB/s (2291322 bytes in 0.049s)
+
+
+match_pic:screenshot_20240725_172103.png
+area:dailyAward,score: 0.9998492199465613
+area:weeklyAward,score: 0.9999999794478749
+Current screen is: $weeklyAward$, score: 0.9999999794478749
+
+
+
+
+Deleted: ./pic\screenshot_20240725_172026.png
+Deleted: ./pic\screenshot_20240725_172031.png
+Deleted: ./pic\screenshot_20240725_172036.png
+Deleted: ./pic\screenshot_20240725_172042.png
+Deleted: ./pic\screenshot_20240725_172048.png
+Deleted: ./pic\screenshot_20240725_172103.png
+
+/sdcard/screenshot_20240725_172118.png: 1 file pulled, 0 skipped. 64.6 MB/s (2747666 bytes in 0.041s)
+
+
+match_pic:screenshot_20240725_172118.png
+area:home,score: 0.9879067180249158
+area:fight,score: 0.9658839280568512
+Current screen is: $home$, score: 0.9879067180249158
+这是主页
+
+
+/sdcard/screenshot_20240725_172125.png: 1 file pulled, 0 skipped. 45.7 MB/s (2341089 bytes in 0.049s)
+
+
+match_pic:screenshot_20240725_172125.png
+area:travel,score: 0.9985950126943678
+Current screen is: $travel$, score: 0.9985950126943678
+
+
+
+/sdcard/screenshot_20240725_172134.png: 1 file pulled, 0 skipped. 51.1 MB/s (2137510 bytes in 0.040s)
+
+
+match_buttoning:travel
+match_pic:screenshot_20240725_172134.png
+area:travel,score: 0.9990860238012365
+Current screen is: $travel$, score: 0.9990860238012365
+button:travel,score:0.9999712330947115
+
+
+
+/sdcard/screenshot_20240725_172143.png: 1 file pulled, 0 skipped. 58.4 MB/s (2167798 bytes in 0.035s)
+
+
+match_buttoning:travel
+match_pic:screenshot_20240725_172143.png
+area:travel,score: 0.9958312492866449
+Current screen is: $travel$, score: 0.9958312492866449
+button:travel,score:0.04541775713836769
+
+/sdcard/screenshot_20240725_172146.png: 1 file pulled, 0 skipped. 38.0 MB/s (2162653 bytes in 0.054s)
+
+
+match_pic:screenshot_20240725_172146.png
+area:travel,score: 0.9935765707946467
+Current screen is: $travel$, score: 0.9935765707946467
+
+
+
+/sdcard/screenshot_20240725_172154.png: 1 file pulled, 0 skipped. 57.2 MB/s (2242712 bytes in 0.037s)
+
+
+match_buttoning:travel
+match_pic:screenshot_20240725_172154.png
+area:travel,score: 0.9968030345442821
+Current screen is: $travel$, score: 0.9968030345442821
+button:travel,score:0.04974305032150556
+
+/sdcard/screenshot_20240725_172157.png: 1 file pulled, 0 skipped. 49.3 MB/s (2216388 bytes in 0.043s)
+
+
+match_pic:screenshot_20240725_172157.png
+area:travel,score: 0.9998533661810446
+Current screen is: $travel$, score: 0.9998533661810446
+
+
+/sdcard/screenshot_20240725_172202.png: 1 file pulled, 0 skipped. 56.7 MB/s (2310761 bytes in 0.039s)
+
+
+match_buttoning:travel
+match_pic:screenshot_20240725_172202.png
+area:travel,score: 0.9991648571280867
+Current screen is: $travel$, score: 0.9991648571280867
+button:travel,score:0.9997222690226117
+
+
+
+/sdcard/screenshot_20240725_172211.png: 1 file pulled, 0 skipped. 51.1 MB/s (2327684 bytes in 0.043s)
+
+
+match_buttoning:travel
+match_pic:screenshot_20240725_172211.png
+area:travel,score: 0.9958493576117008
+Current screen is: $travel$, score: 0.9958493576117008
+button:travel,score:0.04509967430666859
+Deleted: ./pic\screenshot_20240725_172118.png
+Deleted: ./pic\screenshot_20240725_172125.png
+Deleted: ./pic\screenshot_20240725_172134.png
+Deleted: ./pic\screenshot_20240725_172143.png
+Deleted: ./pic\screenshot_20240725_172146.png
+Deleted: ./pic\screenshot_20240725_172154.png
+Deleted: ./pic\screenshot_20240725_172157.png
+Deleted: ./pic\screenshot_20240725_172202.png
+Deleted: ./pic\screenshot_20240725_172211.png

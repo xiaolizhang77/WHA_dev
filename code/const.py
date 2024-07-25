@@ -59,7 +59,14 @@ known_screenshot_paths = {
 
     "mail": "./known_pic/mail.png",
 
-    "travel": "./known_pic/travel.png"
+    "travel": "./known_pic/travel.png",
+
+    "teaHouse": "./known_pic/teaHouse.png",
+    "teaGet": "./known_pic/teaGet.png",
+    "teaChoice": "./known_pic/teaChoice.png",
+    "teaInvite": "./known_pic/teaInvite.png",
+    "teaTalk": "./known_pic/TeaTalk.png",
+    "teaWait": "./known_pic/teaWait.png",
 }
 
 #   已知界面的特征区域
@@ -85,10 +92,18 @@ known_screenshot_area = {
     "fightBookFive": [0, 0, 400, 250],
     "fightBookNum": [800, 600, 650, 240],
     "travel": [0, 0, 400, 100],
+
+    "teaHouse": [0, 0, 400, 100],
+    "teaTalk": [0, 0, 400, 100],
+    "teaGet": [1080, 220, 160, 160],
 }
 
 button = {
-    "travel": [1050, 960, 230, 80],
+    "travel": ["travel", [1050, 960, 230, 80]],
+
+    "teaChoice": ["teaHouse", [0, 600, 200, 400]],
+    "teaInvite": ["teaHouse", [1680, 900, 170, 120]],
+    "teaWait": ["teaHouse", [40, 870, 150, 150]],
 }
 
 

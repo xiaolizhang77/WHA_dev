@@ -1,6 +1,7 @@
 import home
 import adb
 import tools
+import random
 
 
 def enterDC():
@@ -62,7 +63,81 @@ def enterOffice():
 
 
 def drinkTea():
-    print("喝不了一点")
+    print("喝茶")
+    for i in range(5):
+        try:
+            enterDC()
+        except Exception as e:
+            print(e)
+            return
+
+        adb.perform_click(1550, 700)
+        tools.sleep()
+
+        if tools.match_pics() != "teaHouse":
+            print("进入茶室失败")
+            return
+
+        adb.perform_click(1000, 340)
+        tools.sleep()
+
+        if not tools.match_buttons("teaChoice"):
+            print("喝茶次数不足")
+            return
+
+        adb.perform_click(430, 1000)
+        tools.sleep()
+
+        adb.perform_click(430, 1000)
+        tools.sleep()
+        tools.sleep()
+
+        if tools.match_buttons("teaWait"):
+            tools.sleep()
+            tools.sleep()
+
+        if tools.match_pics() != "teaGet":
+            print("Drink tea Error")
+            return
+
+        adb.perform_click(1150, 670)
+        tools.sleep()
+
+        adb.perform_click(1150, 670)
+        tools.sleep()
+
+        for i in range(20):
+            if tools.match_buttons("teaInvite"):
+                break
+
+            adb.perform_click(random.randrange(400, 1800), random.randrange(400, 800))
+            tools.sleep()
+
+            if i == 19:
+                print("Drink tea Error")
+                return
+
+        tools.sleep()
+        adb.perform_click(1740, 950)
+        tools.sleep()
+        tools.sleep()
+
+        for i in range(15):
+            if tools.match_pics() != "teaTalk":
+                print("喝茶结束")
+                break
+
+            if i <= 8:
+                adb.perform_click(1530, 550)
+                tools.sleep()
+                adb.perform_click(1530, 700)
+                tools.sleep()
+
+            else:
+                adb.perform_click(1530, 400)
+                tools.sleep()
+                adb.perform_click(1530, 700)
+                tools.sleep()
 
 
 def capsuleToy():
