@@ -23,6 +23,7 @@ def main():
             store = settings.get("store", False)
             mail = settings.get("mail", False)
             DC = settings.get("DC", False)
+            tea = settings.get("tea", False)
             call = settings.get("call", False)
             fight = settings.get("fight", False)
             award = settings.get("award", False)
@@ -52,6 +53,8 @@ def main():
         Mail.mail()
     if DC:
         DispatchCompany.DispatchCompany()
+    if tea:
+        DispatchCompany.drinkTea()
     if call:
         Call.call()
     if fight:

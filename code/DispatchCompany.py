@@ -127,7 +127,7 @@ def drinkTea():
                 print("喝茶结束")
                 break
 
-            if i <= 8:
+            if i <= 6:
                 adb.perform_click(1530, 550)
                 tools.sleep()
                 adb.perform_click(1530, 700)
@@ -138,6 +138,7 @@ def drinkTea():
                 tools.sleep()
                 adb.perform_click(1530, 700)
                 tools.sleep()
+    tools.delete_png_files()
 
 
 def capsuleToy():
@@ -213,14 +214,14 @@ def dormitory():
     tools.sleep()
     adb.perform_click(350, 1000)
     tools.sleep()
+    tools.back()
 
 
 def DispatchCompany():
     getResourse()
     capsuleToy()
-    # addBookItem()
+    addBookItem()
     dormitory()
-    drinkTea()
     tools.delete_png_files()
     try:
         home.returnHome()

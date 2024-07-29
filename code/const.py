@@ -71,7 +71,7 @@ known_screenshot_paths = {
 
 #   已知界面的特征区域
 known_screenshot_area = {
-    "home": [1360, 575, 250, 200],
+    "home": [1640, 130, 230, 260],
     "office": [0, 0, 400, 100],
     "store": [0, 0, 400, 100],
     "package": [500, 250, 500, 500],

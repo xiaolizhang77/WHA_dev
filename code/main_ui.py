@@ -88,6 +88,7 @@ def load_settings(ui):
             ui.checkBox_5.setChecked(settings.get("fight", False))
             ui.checkBox_6.setChecked(settings.get("award", False))
             ui.checkBox_7.setChecked(settings.get("travel", False))
+            ui.checkBox_8.setChecked(settings.get("tea", False))
             ui.radioButton.setChecked(settings.get("Money", False))
             ui.radioButton_2.setChecked(settings.get("Book", False))
             ui.radioButton_3.setChecked(settings.get("Weapon", False))
@@ -104,6 +105,7 @@ def save_settings(ui):
         "fight": ui.checkBox_5.isChecked(),
         "award": ui.checkBox_6.isChecked(),
         "travel": ui.checkBox_7.isChecked(),
+        "tea": ui.checkBox_8.isChecked(),
         "Money": ui.radioButton.isChecked(),
         "Book": ui.radioButton_2.isChecked(),
         "Weapon": ui.radioButton_3.isChecked(),
@@ -140,6 +142,7 @@ if __name__ == "__main__":
     checkBox5: QCheckBox = ui.checkBox_5
     checkBox6: QCheckBox = ui.checkBox_6
     checkBox7: QCheckBox = ui.checkBox_7
+    checkBox8: QCheckBox = ui.checkBox_8
     pushButton: QPushButton = ui.pushButton
     textEdit: QTextEdit = ui.textEdit
     lineEdit2: QLineEdit = ui.lineEdit_2

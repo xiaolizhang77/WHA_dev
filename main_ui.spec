@@ -35,7 +35,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='物华弥新小助手 1.1',
+    name='物华弥新小助手 1.2',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,

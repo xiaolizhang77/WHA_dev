@@ -193,7 +193,7 @@
    <property name="geometry">
     <rect>
      <x>200</x>
-     <y>220</y>
+     <y>270</y>
      <width>95</width>
      <height>20</height>
     </rect>
@@ -206,7 +206,7 @@
    <property name="geometry">
     <rect>
      <x>200</x>
-     <y>250</y>
+     <y>300</y>
      <width>95</width>
      <height>20</height>
     </rect>
@@ -219,7 +219,7 @@
    <property name="geometry">
     <rect>
      <x>200</x>
-     <y>280</y>
+     <y>330</y>
      <width>95</width>
      <height>20</height>
     </rect>
@@ -265,6 +265,19 @@
      <width>131</width>
      <height>41</height>
     </rect>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_8">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>200</y>
+     <width>79</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>喝茶</string>
    </property>
   </widget>
  </widget>
