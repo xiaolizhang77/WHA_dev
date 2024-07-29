@@ -64,7 +64,6 @@ def package_list():
 def get_wh():
     run_adb_command("shell wm size")
 
-
 # 长按 duration 单位毫秒
 def press_and_hold(x, y, duration):
     run_adb_command(f"shell input touchscreen swipe {x} {y} {x} {y} {duration}")
