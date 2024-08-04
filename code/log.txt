@@ -1,31 +1,15 @@
-虚拟机启动！:"D:\MuMu Player 12\shell\adb.exe";16384
+虚拟机启动！:"D:\leidian\LDPlayer9\adb.exe";
 配置完成
-尝试链接mumu:"D:\MuMu Player 12\shell\adb.exe"
-CompletedProcess(args='"D:\\MuMu Player 12\\shell\\adb.exe" connect 127.0.0.1:16384', returncode=0, stdout='already connected to 127.0.0.1:16384\n', stderr='')
-Physical size: 1080x1920
+模拟器准备完毕
+分辨率检查：
+Physical size: 1920x1080
 
-Deleted: ./pic\screenshot_20240728_230035.png
-Deleted: ./pic\screenshot_20240728_230036.png
-
-/sdcard/screenshot_20240728_230104.png: 1 file pulled, 0 skipped. 55.2 MB/s (985601 bytes in 0.017s)
-
-
-match_pic:screenshot_20240728_230104.png
-image:callNum,score: 0.9832967661581715
-Current screen is: $callNum$, score: 0.9832967661581715
-
-/sdcard/screenshot_20240728_230105.png: 1 file pulled, 0 skipped. 41.3 MB/s (965485 bytes in 0.022s)
-
-
-match_pic:screenshot_20240728_230105.png
-image:callNum,score: 0.9823085966770903
-Current screen is: $callNum$, score: 0.9823085966770903
-
-
-/sdcard/screenshot_20240728_230109.png: 1 file pulled, 0 skipped. 51.6 MB/s (970875 bytes in 0.018s)
-
-
-match_pic:screenshot_20240728_230109.png
-image:callNum,score: 0.9823298790686312
-Current screen is: $callNum$, score: 0.9823298790686312
-
+领取礼包
+match_pic:screenshot_20240804_154334.png
+area:home,score: 0.9513078845595739
+area:office,score: 0.9957326231214908
+Current screen is: $office$, score: 0.9957326231214908
+match_pic:screenshot_20240804_154340.png
+area:home,score: 0.9638401084690545
+area:office,score: 0.9958060814938492
+Current screen is: $office$, score: 0.9958060814938492

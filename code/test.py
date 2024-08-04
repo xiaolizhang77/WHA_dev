@@ -3,9 +3,8 @@ import tools
 import DispatchCompany
 import cv
 import Call
-import Store
+import SimpleTask
 import Fight
-import Award
 
 if __name__ == "__main__":
     device_id = "YOUR_DEVICE_ID"

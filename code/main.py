@@ -3,12 +3,9 @@ import tools
 import DispatchCompany
 import cv
 import Call
-import Store
+import SimpleTask
 import Fight
-import Award
-import Mail
 import const
-import Travel
 import os
 import json
 
@@ -41,16 +38,16 @@ def main():
     const.setAdbPath(path, port)
     print("配置完成")
     adb.adb_connect()
+    print("分辨率检查：")
     adb.get_wh()
-    # print("列出长宽")
 
     cv.load_feature_data()
     tools.delete_png_files()
 
     if store:
-        Store.store()
+        SimpleTask.store()
     if mail:
-        Mail.mail()
+        SimpleTask.mail()
     if DC:
         DispatchCompany.DispatchCompany()
     if tea:
@@ -60,9 +57,9 @@ def main():
     if fight:
         Fight.fight(strName)
     if award:
-        Award.award()
+        SimpleTask.award()
     if travel:
-        Travel.travel()
+        SimpleTask.travel()
     tools.delete_png_files()
 
 

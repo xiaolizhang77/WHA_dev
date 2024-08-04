@@ -19,8 +19,10 @@ def run_adb_command(command):
     result = subprocess.run(full_command, shell=True, capture_output=True, text=True)
     if result.returncode != 0:
         print(f"Error: {result.stderr}")
+        return None
     else:
-        print(result.stdout)
+        # print(result.stdout)
+        return result.stdout
 
 
 # 1. 连接设备
@@ -62,7 +64,10 @@ def package_list():
 
 
 def get_wh():
-    run_adb_command("shell wm size")
+    wh = run_adb_command("shell wm size")
+    print(wh)
+    assert wh == "Physical size: 1920x1080\n" or wh == "Physical size: 1080x1920\n"
+
 
 # 长按 duration 单位毫秒
 def press_and_hold(x, y, duration):
