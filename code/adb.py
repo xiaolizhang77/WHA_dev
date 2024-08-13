@@ -1,6 +1,11 @@
 import subprocess
 import const
 import os
+import re
+
+
+def changeWH(x: int):
+    return int(x * const.simulator_w / 1920)
 
 
 def adb_connect():
@@ -40,9 +45,11 @@ def start_app(package_name, activity_name):
     run_adb_command(f"shell am start -n {package_name}/{activity_name}")
 
 
-# 4. 执行一些操作
 def perform_click(x, y):
-    run_adb_command(f"shell input tap {x} {y}")
+    if const.simulator_w == 1920:
+        run_adb_command(f"shell input tap {x} {y}")
+    else:
+        run_adb_command(f"shell input tap {changeWH(x)} {changeWH(y)}")
 
 
 def input_text(text):
@@ -63,19 +70,37 @@ def package_list():
     run_adb_command("shell pm list packages")
 
 
-def get_wh():
+def check_wh():
     wh = run_adb_command("shell wm size")
-    print(wh)
-    assert wh == "Physical size: 1920x1080\n" or wh == "Physical size: 1080x1920\n"
+    w, h = get_wh(wh)
+    assert w * 9 == h * 16, f"当前分辨率:{wh},应为 16:9"
+    const.setSimulatorWH(w, h)
+
+
+def get_wh(wh: str):
+    numbers = re.findall(r'\d+', wh)
+    w, h = int(numbers[0]), int(numbers[1])
+    if w < h:
+        return h, w
+    else:
+        return w, h
 
 
 # 长按 duration 单位毫秒
 def press_and_hold(x, y, duration):
-    run_adb_command(f"shell input touchscreen swipe {x} {y} {x} {y} {duration}")
+    if const.simulator_w == 1920:
+        run_adb_command(f"shell input touchscreen swipe {x} {y} {x} {y} {duration}")
+    else:
+        run_adb_command(
+            f"shell input touchscreen swipe {changeWH(x)} {changeWH(y)} {changeWH(x)} {changeWH(y)} {duration}")
 
 
 def swipe(x1, y1, x2, y2, duration):
-    run_adb_command(f"shell input touchscreen swipe {x1} {y1} {x2} {y2} {duration}")
+    if const.simulator_w == 1920:
+        run_adb_command(f"shell input touchscreen swipe {x1} {y1} {x2} {y2} {duration}")
+    else:
+        run_adb_command(
+            f"shell input touchscreen swipe {changeWH(x1)} {changeWH(y1)} {changeWH(x2)} {changeWH(y2)} {duration}")
 
 
 def get_screen_cut(screenshot_name):

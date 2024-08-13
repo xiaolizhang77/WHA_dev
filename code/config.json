@@ -1,1 +1,1 @@
-{"path": "\"D:\\leidian\\LDPlayer9\\adb.exe\"", "store": true, "mail": true, "DC": true, "call": true, "fight": true, "award": true, "travel": true, "tea": true, "Money": true, "Book": false, "Weapon": false, "port": ""}
+{"path": "\"D:\\MuMu Player 12\\shell\\adb.exe\"", "store": false, "mail": false, "DC": false, "call": false, "fight": false, "award": true, "travel": false, "tea": false, "deleteWeapon": false, "Money": false, "Book": true, "Weapon": false, "port": "16384"}

@@ -13,7 +13,7 @@
     <x>0</x>
     <y>0</y>
     <width>861</width>
-    <height>553</height>
+    <height>610</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -48,7 +48,7 @@
    <property name="geometry">
     <rect>
      <x>80</x>
-     <y>470</y>
+     <y>510</y>
      <width>121</width>
      <height>51</height>
     </rect>
@@ -128,7 +128,7 @@
    <property name="geometry">
     <rect>
      <x>100</x>
-     <y>350</y>
+     <y>400</y>
      <width>79</width>
      <height>20</height>
     </rect>
@@ -169,7 +169,7 @@
      <x>310</x>
      <y>100</y>
      <width>531</width>
-     <height>361</height>
+     <height>451</height>
     </rect>
    </property>
    <property name="readOnly">
@@ -179,7 +179,7 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>450</x>
+     <x>550</x>
      <y>80</y>
      <width>54</width>
      <height>16</height>
@@ -232,7 +232,7 @@
    <property name="geometry">
     <rect>
      <x>100</x>
-     <y>400</y>
+     <y>450</y>
      <width>79</width>
      <height>20</height>
     </rect>
@@ -278,6 +278,22 @@
    </property>
    <property name="text">
     <string>喝茶</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_9">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>350</y>
+     <width>79</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>装备分解</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
    </property>
   </widget>
  </widget>

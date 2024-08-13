@@ -2,6 +2,9 @@
 adb_path = ""
 adb_port = ""
 
+simulator_w = 1920
+simulator_h = 1080
+
 directory = "./pic"
 
 # 已知界面的截图路径
@@ -67,6 +70,11 @@ known_screenshot_paths = {
     "teaInvite": "./known_pic/teaInvite.png",
     "teaTalk": "./known_pic/TeaTalk.png",
     "teaWait": "./known_pic/teaWait.png",
+
+    "warehouse": "./known_pic/warehouse.png",
+    "warehouseSelect": "./known_pic/warehouseSelect.png",
+    "warehouseDeleteConfirm": "./known_pic/warehouseDeleteConfirm.png",
+    # "warehouseWeaponDelete": "./known_pic/warehouseWeaponDelete.png",
 }
 
 #   已知界面的特征区域
@@ -79,23 +87,28 @@ known_screenshot_area = {
     "weeklyAward": [0, 0, 400, 100],
     "callEnd2": [800, 900, 300, 70],
     "fight": [0, 0, 400, 100],
-    "fightMoneyFive": [0, 0, 400, 250],
+    "fightMoneyFive": [240, 120, 200, 100],
     "fightMoneyNum": [800, 600, 650, 240],
     "fighting": [1020, 0, 900, 250],
     "fightEnd": [1020, 0, 900, 250],
-    "heartFull": [600, 350, 700, 380],
-    "confirmItem": [600, 350, 700, 380],
-    "bookChange": [600, 350, 700, 380],
+    "heartFull": [720, 440, 500, 60],
+    "confirmItem": [720, 440, 500, 60],
+    "bookChange": [720, 440, 500, 60],
     "mail": [0, 0, 400, 100],
-    "fightWeaponFive": [0, 0, 400, 250],
+    "fightWeaponFive": [240, 120, 200, 100],
     "fightWeaponNum": [800, 600, 650, 240],
-    "fightBookFive": [0, 0, 400, 250],
+    "fightBookFive": [240, 120, 200, 100],
     "fightBookNum": [800, 600, 650, 240],
     "travel": [0, 0, 400, 100],
 
     "teaHouse": [0, 0, 400, 100],
     "teaTalk": [0, 0, 400, 100],
     "teaGet": [1080, 220, 160, 160],
+
+    "warehouse": [0, 0, 400, 100],
+    "warehouseSelect": [1000, 90, 400, 70],
+    "warehouseDeleteConfirm": [720, 440, 500, 60],
+    # "warehouseWeaponDelete": [],
 }
 
 button = {
@@ -111,3 +124,11 @@ def setAdbPath(path: str, port: str):
     global adb_path, adb_port
     adb_path = path
     adb_port = port
+
+
+def setSimulatorWH(w: int, h: int):
+    global simulator_w, simulator_h
+    simulator_w = w
+    simulator_h = h
+    if w != 1920 or h != 1080:
+        print(f"模拟器分辨率为:{w}x{h}")

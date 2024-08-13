@@ -28,6 +28,7 @@ def store():
 
     tools.delete_png_files()
 
+
 def travel():
     for i in range(3):
         try:
@@ -135,6 +136,51 @@ def mail():
     else:
         print("获取邮件失败")
         return
+    try:
+        home.returnHome()
+    except Exception as e:
+        print(e)
+        return
+
+    tools.delete_png_files()
+
+
+def delete_weapon():
+    try:
+        home.returnHome()
+    except Exception as e:
+        print(e)
+        return
+
+    adb.perform_click(1580, 1000)
+    tools.sleep()
+
+    if tools.match_pics() == "warehouse":
+        print("进入物资库")
+        adb.perform_click(1800, 120)
+        tools.sleep()
+    else:
+        print("分解装备失败")
+        return
+
+    if tools.match_pics() == "warehouseSelect":
+        adb.perform_click(600, 1010)
+        tools.sleep()
+        adb.perform_click(760, 1010)
+        tools.sleep()
+        adb.perform_click(1700, 1010)
+        tools.sleep()
+    else:
+        print("分解装备失败")
+        return
+
+    if tools.match_pics() == "warehouseDeleteConfirm":
+        adb.perform_click(1150, 700)
+        tools.sleep()
+    else:
+        print("分解装备失败")
+        return
+
     try:
         home.returnHome()
     except Exception as e:
