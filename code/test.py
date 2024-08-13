@@ -3,9 +3,8 @@ import tools
 import DispatchCompany
 import cv
 import Call
-import Store
+import SimpleTask
 import Fight
-import Award
 
 if __name__ == "__main__":
     device_id = "YOUR_DEVICE_ID"
@@ -16,7 +15,7 @@ if __name__ == "__main__":
     adb.package_list()
     # install_app(apk_path)
     print("列出所有package")
-    adb.get_wh()
+    adb.check_wh()
     print("列出长宽")
     # start_app(package_name, activity_name)
     print("手动：物华米线，启动！")

@@ -2,30 +2,21 @@
 配置完成
 尝试链接mumu:"D:\MuMu Player 12\shell\adb.exe"
 CompletedProcess(args='"D:\\MuMu Player 12\\shell\\adb.exe" connect 127.0.0.1:16384', returncode=0, stdout='already connected to 127.0.0.1:16384\n', stderr='')
-Physical size: 1080x1920
+分辨率检查
+Deleted: ./pic\screenshot_20240813_164459.png
+Deleted: ./pic\screenshot_20240813_164546.png
+Award
+match_pic:screenshot_20240813_165030.png
+area:home,score: 0.999999999015218
+area:fight,score: 0.9740727413702317
+Current screen is: $home$, score: 0.999999999015218
+这是主页
+match_pic:screenshot_20240813_165037.png
+area:dailyAward,score: 0.9999999844509063
+area:weeklyAward,score: 0.9998492842259294
+Current screen is: $dailyAward$, score: 0.9999999844509063
+Error: 
+Error: adb.exe: device offline
 
-Deleted: ./pic\screenshot_20240728_230035.png
-Deleted: ./pic\screenshot_20240728_230036.png
-
-/sdcard/screenshot_20240728_230104.png: 1 file pulled, 0 skipped. 55.2 MB/s (985601 bytes in 0.017s)
-
-
-match_pic:screenshot_20240728_230104.png
-image:callNum,score: 0.9832967661581715
-Current screen is: $callNum$, score: 0.9832967661581715
-
-/sdcard/screenshot_20240728_230105.png: 1 file pulled, 0 skipped. 41.3 MB/s (965485 bytes in 0.022s)
-
-
-match_pic:screenshot_20240728_230105.png
-image:callNum,score: 0.9823085966770903
-Current screen is: $callNum$, score: 0.9823085966770903
-
-
-/sdcard/screenshot_20240728_230109.png: 1 file pulled, 0 skipped. 51.6 MB/s (970875 bytes in 0.018s)
-
-
-match_pic:screenshot_20240728_230109.png
-image:callNum,score: 0.9823298790686312
-Current screen is: $callNum$, score: 0.9823298790686312
-
+match_pic:screenshot_20240813_165052.png
+Error: Unable to read image ./pic/screenshot_20240813_165052.png

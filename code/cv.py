@@ -1,10 +1,15 @@
 import cv2
 import pickle
 import os
+import const
 
 known_features = {}
 known_features_areas = {}
 known_features_button = {}
+
+
+def changeWH(x: int):
+    return int(x * const.simulator_w / 1920)
 
 
 def load_image(path):
@@ -26,7 +31,12 @@ def calculate_area(image_path, x, y, w, h):
     if image is None:
         print(f"Error: Unable to read image {image_path}")
         return None
-    image = image[y:y + h, x:x + w]
+    if const.simulator_w != 1920:
+        image = image[changeWH(y):changeWH(y + h), changeWH(x):changeWH(x + w)]
+        # cv2.imshow("ROI", image)
+        # cv2.waitKey(0)
+    else:
+        image = image[y:y + h, x:x + w]
     # cv2.imshow("ROI", image)
     # cv2.waitKey(0)
     histogram = cv2.calcHist([image], [0, 1, 2], None, [8, 8, 8], [0, 256, 0, 256, 0, 256])

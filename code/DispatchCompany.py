@@ -111,7 +111,8 @@ def drinkTea():
                 break
 
             adb.perform_click(random.randrange(400, 1800), random.randrange(400, 800))
-            tools.sleep()
+            # tools.sleep()
+            tools.sleepTime(0.5)
 
             if i == 19:
                 print("Drink tea Error")
@@ -127,7 +128,7 @@ def drinkTea():
                 print("喝茶结束")
                 break
 
-            if i <= 6:
+            if i <= 4:
                 adb.perform_click(1530, 550)
                 tools.sleep()
                 adb.perform_click(1530, 700)

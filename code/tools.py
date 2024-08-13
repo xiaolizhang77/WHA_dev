@@ -60,7 +60,7 @@ def match_pic(pic_name):
             b_score = score
             b_name = screen_name
     # 假设阈值为0.9，表示高度相似
-    if b_score > 0.8:
+    if b_score > 0.90:
         print(f"Current screen is: ${b_name}$, score: {b_score}")
         return b_name
     return "No match found"

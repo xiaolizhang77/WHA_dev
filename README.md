@@ -1,6 +1,14 @@
 # WHA_dev
 ![logo](image/logo.jpeg)
 
+视频介绍：
+
+    https://www.bilibili.com/video/BV1QevNemEhU/
+    https://www.bilibili.com/video/BV11x8zeWEfF/
+    https://www.bilibili.com/video/BV1Gp8peHEav/
+
+#   代码使用
+
 生成对应requirement.txt：
 
     pip freeze > requirements.txt

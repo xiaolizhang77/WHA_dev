@@ -3,12 +3,9 @@ import tools
 import DispatchCompany
 import cv
 import Call
-import Store
+import SimpleTask
 import Fight
-import Award
-import Mail
 import const
-import Travel
 import os
 import json
 
@@ -28,6 +25,7 @@ def main():
             fight = settings.get("fight", False)
             award = settings.get("award", False)
             travel = settings.get("travel", False)
+            deleteWeapon = settings.get("deleteWeapon", False)
             port = settings.get("port", "")
             strName = ""
             if settings.get("Money", False):
@@ -41,16 +39,16 @@ def main():
     const.setAdbPath(path, port)
     print("配置完成")
     adb.adb_connect()
-    adb.get_wh()
-    # print("列出长宽")
+    print("分辨率检查")
+    adb.check_wh()
 
     cv.load_feature_data()
     tools.delete_png_files()
 
     if store:
-        Store.store()
+        SimpleTask.store()
     if mail:
-        Mail.mail()
+        SimpleTask.mail()
     if DC:
         DispatchCompany.DispatchCompany()
     if tea:
@@ -59,10 +57,12 @@ def main():
         Call.call()
     if fight:
         Fight.fight(strName)
+    if deleteWeapon:
+        SimpleTask.delete_weapon()
     if award:
-        Award.award()
+        SimpleTask.award()
     if travel:
-        Travel.travel()
+        SimpleTask.travel()
     tools.delete_png_files()
 
 
