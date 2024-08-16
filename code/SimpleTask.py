@@ -163,7 +163,7 @@ def delete_weapon():
         print("分解装备失败")
         return
 
-    if tools.match_pics() == "warehouseSelect":
+    if tools.match_buttons("warehouseSelect"):
         adb.perform_click(600, 1010)
         tools.sleep()
         adb.perform_click(760, 1010)

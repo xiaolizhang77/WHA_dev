@@ -2,6 +2,7 @@ import cv
 import const
 import os
 import pickle
+import json
 
 # 输出特征文件路径
 output_file = "./known_features.pkl"
@@ -27,3 +28,5 @@ for k, v in const.button.items():
     features_button[k] = cv.calculate_area(image_path, v[1][0], v[1][1], v[1][2], v[1][3])
 with open(output_file3, 'wb') as f:
     pickle.dump(features_button, f)
+
+

@@ -1,5 +1,9 @@
-# WHA_dev
-![logo](image/logo.jpeg)
+# WHA开发文档
+<p align="center">
+  <picture>
+    <img src="./image/logo.jpeg" alt="ServerlessLLM" width="30%">
+  </picture>
+</p>
 
 视频介绍：
 

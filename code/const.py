@@ -106,7 +106,6 @@ known_screenshot_area = {
     "teaGet": [1080, 220, 160, 160],
 
     "warehouse": [0, 0, 400, 100],
-    "warehouseSelect": [1000, 90, 400, 70],
     "warehouseDeleteConfirm": [720, 440, 500, 60],
     # "warehouseWeaponDelete": [],
 }
@@ -117,6 +116,8 @@ button = {
     "teaChoice": ["teaHouse", [0, 600, 200, 400]],
     "teaInvite": ["teaHouse", [1680, 900, 170, 120]],
     "teaWait": ["teaHouse", [40, 870, 150, 150]],
+
+    "warehouseSelect": ["warehouse", [1000, 90, 400, 70]],
 }
 
 
