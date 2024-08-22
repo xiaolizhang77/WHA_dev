@@ -5,9 +5,9 @@ import tools
 
 def enterCall():
     for i in range(5):
-        str = tools.match_pics()
-        if str == "callMain" or str == "confirmCall0" or str == "confirmCall1":
-            return str
+        image_name = tools.match_pics()
+        if image_name == "callMain" or image_name == "confirmCall0" or image_name == "confirmCall1":
+            return image_name
         try:
             home.returnHome()
         except Exception as e:

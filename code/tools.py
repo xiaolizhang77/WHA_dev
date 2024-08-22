@@ -48,18 +48,19 @@ def match_pic(pic_name):
             x, y, w, h = const.known_screenshot_area[screen_name]
             current_area = cv.calculate_area(f"./pic/{pic_name}", x, y, w, h)
             score = cv.compare_area(current_area, known_screenshot_path)
-            if score > 0.95:
+            if score > 0.90:
+                # print(current_area)
                 print(f"area:{screen_name},score: {score}")
         elif screen_name not in const.button.keys():
             score = cv.compare_histograms(current_image, known_screenshot_path)
-            if score > 0.95:
+            if score > 0.90:
                 print(f"image:{screen_name},score: {score}")
         else:
             continue
         if score > b_score:
             b_score = score
             b_name = screen_name
-    # 假设阈值为0.9，表示高度相似
+    # 阈值为0.9，表示高度相似
     if b_score > 0.90:
         print(f"Current screen is: ${b_name}$, score: {b_score}")
         return b_name

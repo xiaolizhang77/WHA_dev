@@ -1,6 +1,4 @@
-import cv
 import tools
-import adb
 
 
 def returnHome():

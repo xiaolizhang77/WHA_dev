@@ -1,22 +1,1337 @@
 虚拟机启动！:"D:\MuMu Player 12\shell\adb.exe";16384
 配置完成
 尝试链接mumu:"D:\MuMu Player 12\shell\adb.exe"
-CompletedProcess(args='"D:\\MuMu Player 12\\shell\\adb.exe" connect 127.0.0.1:16384', returncode=0, stdout='already connected to 127.0.0.1:16384\n', stderr='')
+CompletedProcess(args='"D:\\MuMu Player 12\\shell\\adb.exe" connect 127.0.0.1:16384', returncode=0, stdout='connected to 127.0.0.1:16384\n', stderr='')
 分辨率检查
-Deleted: ./pic\screenshot_20240813_164459.png
-Deleted: ./pic\screenshot_20240813_164546.png
-Award
-match_pic:screenshot_20240813_165030.png
+领取礼包
+match_pic:screenshot_20240816_155100.png
 area:home,score: 0.999999999015218
+area:office,score: 0.9054904933625029
 area:fight,score: 0.9740727413702317
 Current screen is: $home$, score: 0.999999999015218
 这是主页
-match_pic:screenshot_20240813_165037.png
+match_pic:screenshot_20240816_155110.png
+area:home,score: 0.9283091771843544
+area:store,score: 0.9999999941610481
+area:mail,score: 0.9864209533070075
+area:warehouse,score: 0.9435537679465132
+Current screen is: $store$, score: 0.9999999941610481
+match_pic:screenshot_20240816_155119.png
+image:callMain,score: 0.9252226766442635
+image:callEnd,score: 0.9195418924476831
+image:confirmCall0,score: 0.9456461006238874
+image:confirmCall7,score: 0.9046877046463595
+area:package,score: 0.9999998307867815
+Current screen is: $package$, score: 0.9999998307867815
+Deleted: ./pic\screenshot_20240816_155100.png
+Deleted: ./pic\screenshot_20240816_155110.png
+Deleted: ./pic\screenshot_20240816_155119.png
+match_pic:screenshot_20240816_155127.png
+area:home,score: 0.9103269928262698
+area:store,score: 0.9999999941610481
+area:mail,score: 0.9864209533070075
+area:warehouse,score: 0.9435537679465132
+Current screen is: $store$, score: 0.9999999941610481
+match_pic:screenshot_20240816_155133.png
+area:home,score: 0.999999999015218
+area:office,score: 0.9054904933625029
+area:fight,score: 0.9740727413702317
+Current screen is: $home$, score: 0.999999999015218
+这是主页
+match_pic:screenshot_20240816_155139.png
+area:store,score: 0.9864095520113001
+area:mail,score: 0.9999999979087157
+area:warehouse,score: 0.9700391786899885
+Current screen is: $mail$, score: 0.9999999979087157
+match_pic:screenshot_20240816_155144.png
+area:store,score: 0.9864095520113001
+area:mail,score: 0.9999999979087157
+area:warehouse,score: 0.9700391786899885
+Current screen is: $mail$, score: 0.9999999979087157
+match_pic:screenshot_20240816_155149.png
+area:home,score: 0.999999999015218
+area:office,score: 0.9054618695230002
+area:fight,score: 0.9740838618270207
+Current screen is: $home$, score: 0.999999999015218
+这是主页
+Deleted: ./pic\screenshot_20240816_155127.png
+Deleted: ./pic\screenshot_20240816_155133.png
+Deleted: ./pic\screenshot_20240816_155139.png
+Deleted: ./pic\screenshot_20240816_155144.png
+Deleted: ./pic\screenshot_20240816_155149.png
+match_pic:screenshot_20240816_155152.png
+area:home,score: 0.999999999015218
+area:office,score: 0.9054904933625029
+area:fight,score: 0.9740727413702317
+Current screen is: $home$, score: 0.999999999015218
+match_pic:screenshot_20240816_155155.png
+area:home,score: 0.999999999015218
+area:office,score: 0.9054904933625029
+area:fight,score: 0.9740727413702317
+Current screen is: $home$, score: 0.999999999015218
+这是主页
+match_pic:screenshot_20240816_155202.png
+image:dispatchCompany,score: 0.9991679191636827
+Current screen is: $dispatchCompany$, score: 0.9991679191636827
+进入派遣公司
+match_pic:screenshot_20240816_155211.png
+image:dispatchCompany,score: 0.9998737955829688
+Current screen is: $dispatchCompany$, score: 0.9998737955829688
+进入派遣公司
+match_pic:screenshot_20240816_155220.png
+image:dispatchCompany,score: 0.9999196213640585
+Current screen is: $dispatchCompany$, score: 0.9999196213640585
+进入派遣公司
+获取资源
+match_pic:screenshot_20240816_155229.png
+image:dispatchCompany,score: 0.9998763493572892
+Current screen is: $dispatchCompany$, score: 0.9998763493572892
+match_pic:screenshot_20240816_155232.png
+image:dispatchCompany,score: 0.9999273861589929
+Current screen is: $dispatchCompany$, score: 0.9999273861589929
+进入派遣公司
+match_pic:screenshot_20240816_155238.png
+area:office,score: 0.997100378507687
+area:teaHouse,score: 0.9042120192719976
+Current screen is: $office$, score: 0.997100378507687
+进入办公室
+match_pic:screenshot_20240816_155247.png
+image:getThings,score: 0.9567962257839304
+image:machine,score: 0.9999871600147641
+image:callMain,score: 0.9316344544895813
+image:callNum,score: 0.9622613446286213
+image:callEnd,score: 0.9095142380215546
+image:confirmCall1,score: 0.9033929348462192
+image:confirmCall7,score: 0.9356866021838939
+area:store,score: 0.9113047011931645
+Current screen is: $machine$, score: 0.9999871600147641
+开扭
+扭蛋机完成
+match_pic:screenshot_20240816_155301.png
+area:office,score: 0.9999999938262738
+area:teaHouse,score: 0.9008116965931717
+Current screen is: $office$, score: 0.9999999938262738
+match_pic:screenshot_20240816_155305.png
+area:office,score: 0.9999999938262738
+area:teaHouse,score: 0.9008116965931717
+Current screen is: $office$, score: 0.9999999938262738
+match_pic:screenshot_20240816_155313.png
+image:dispatchCompany,score: 0.9996797561114356
+Current screen is: $dispatchCompany$, score: 0.9996797561114356
+match_pic:screenshot_20240816_155318.png
+area:home,score: 0.999999999015218
+area:office,score: 0.9056113137832688
+area:fight,score: 0.9740498702457678
+Current screen is: $home$, score: 0.999999999015218
+这是主页
+match_pic:screenshot_20240816_155325.png
+image:dispatchCompany,score: 0.999898801631094
+Current screen is: $dispatchCompany$, score: 0.999898801631094
+进入派遣公司
+match_pic:screenshot_20240816_155331.png
+image:book,score: 0.9999894595864804
+area:bookChange,score: 0.9954069557578025
+image:item,score: 0.9985479897161322
+area:confirmItem,score: 0.9980271575373343
+area:fight,score: 0.954202431072291
+area:heartFull,score: 0.9932519096943835
+area:mail,score: 0.9264876521049955
+area:warehouse,score: 0.939388903167242
+area:warehouseDeleteConfirm,score: 0.9995766758970198
+Current screen is: $book$, score: 0.9999894595864804
+match_pic:screenshot_20240816_155344.png
+image:getThings,score: 0.9946770710255374
+area:bookChange,score: 0.9996936315444896
+image:machine,score: 0.9538520041444765
+area:confirmItem,score: 0.9989807899261353
+image:callMain,score: 0.9550038650621977
+image:callNum,score: 0.9881128931386013
+image:callEnd,score: 0.9274043944180338
+image:confirmCall0,score: 0.9085963370923625
+image:confirmCall1,score: 0.9236851305922363
+image:confirmCall2,score: 0.9096558977920091
+image:confirmCall7,score: 0.9555138778737698
+area:heartFull,score: 0.9996477967408912
+area:warehouseDeleteConfirm,score: 0.9939629391989125
+Current screen is: $bookChange$, score: 0.9996936315444896
+match_pic:screenshot_20240816_155355.png
+image:dispatchCompany,score: 0.9996699621287051
+Current screen is: $dispatchCompany$, score: 0.9996699621287051
+进入派遣公司
+match_pic:screenshot_20240816_155401.png
+image:book,score: 0.9985167942346105
+area:bookChange,score: 0.9954069557578025
+image:item,score: 0.999961651547179
+area:confirmItem,score: 0.9980271575373343
+area:fight,score: 0.954202431072291
+area:heartFull,score: 0.9932519096943835
+area:mail,score: 0.9264876521049955
+area:warehouse,score: 0.939388903167242
+area:warehouseDeleteConfirm,score: 0.9995766758970198
+Current screen is: $item$, score: 0.999961651547179
+match_pic:screenshot_20240816_155413.png
+image:getThings,score: 0.9944734053410998
+area:bookChange,score: 0.9996936315444896
+image:machine,score: 0.9535739428982755
+area:confirmItem,score: 0.9989807899261353
+image:callMain,score: 0.9542380140920054
+image:callNum,score: 0.9880968893177317
+image:callEnd,score: 0.926619264527786
+image:confirmCall0,score: 0.9075144187747145
+image:confirmCall1,score: 0.9238186319740724
+image:confirmCall2,score: 0.908717085187854
+image:confirmCall7,score: 0.9550055973347794
+area:heartFull,score: 0.9996477967408912
+area:warehouseDeleteConfirm,score: 0.9939629391989125
+Current screen is: $bookChange$, score: 0.9996936315444896
+match_pic:screenshot_20240816_155424.png
+image:dispatchCompany,score: 0.9996760030082413
+Current screen is: $dispatchCompany$, score: 0.9996760030082413
+进入派遣公司
+Deleted: ./pic\screenshot_20240816_155152.png
+Deleted: ./pic\screenshot_20240816_155155.png
+Deleted: ./pic\screenshot_20240816_155202.png
+Deleted: ./pic\screenshot_20240816_155211.png
+Deleted: ./pic\screenshot_20240816_155220.png
+Deleted: ./pic\screenshot_20240816_155229.png
+Deleted: ./pic\screenshot_20240816_155232.png
+Deleted: ./pic\screenshot_20240816_155238.png
+Deleted: ./pic\screenshot_20240816_155247.png
+Deleted: ./pic\screenshot_20240816_155301.png
+Deleted: ./pic\screenshot_20240816_155305.png
+Deleted: ./pic\screenshot_20240816_155313.png
+Deleted: ./pic\screenshot_20240816_155318.png
+Deleted: ./pic\screenshot_20240816_155325.png
+Deleted: ./pic\screenshot_20240816_155331.png
+Deleted: ./pic\screenshot_20240816_155344.png
+Deleted: ./pic\screenshot_20240816_155355.png
+Deleted: ./pic\screenshot_20240816_155401.png
+Deleted: ./pic\screenshot_20240816_155413.png
+Deleted: ./pic\screenshot_20240816_155424.png
+match_pic:screenshot_20240816_155436.png
+image:dispatchCompany,score: 0.9997019490949416
+Current screen is: $dispatchCompany$, score: 0.9997019490949416
+match_pic:screenshot_20240816_155442.png
+area:home,score: 0.999999999015218
+area:office,score: 0.9054904933625029
+area:fight,score: 0.9740727413702317
+Current screen is: $home$, score: 0.999999999015218
+这是主页
+喝茶
+match_pic:screenshot_20240816_155445.png
+area:home,score: 0.999999999015218
+area:office,score: 0.9054904933625029
+area:fight,score: 0.9740727413702317
+Current screen is: $home$, score: 0.999999999015218
+match_pic:screenshot_20240816_155448.png
+area:home,score: 0.999999999015218
+area:office,score: 0.9054904933625029
+area:fight,score: 0.9740727413702317
+Current screen is: $home$, score: 0.999999999015218
+这是主页
+match_pic:screenshot_20240816_155454.png
+image:dispatchCompany,score: 0.9998767200654877
+Current screen is: $dispatchCompany$, score: 0.9998767200654877
+进入派遣公司
+match_pic:screenshot_20240816_155500.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+match_buttoning:teaChoice
+match_pic:screenshot_20240816_155506.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaChoice,score:0.9999978870420281
+match_buttoning:teaWait
+match_pic:screenshot_20240816_155517.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaWait,score:0.9999991828600505
+match_pic:screenshot_20240816_155526.png
+area:bookChange,score: 0.915806010423777
+area:confirmItem,score: 0.9149381873467486
+area:fight,score: 0.9547405687919385
+area:heartFull,score: 0.9152417345267304
+area:teaGet,score: 0.9999981087140056
+area:warehouseDeleteConfirm,score: 0.9145226260470091
+Current screen is: $teaGet$, score: 0.9999981087140056
+match_buttoning:teaInvite
+match_pic:screenshot_20240816_155535.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaInvite,score:0.01739542221113763
+match_buttoning:teaInvite
+match_pic:screenshot_20240816_155538.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaInvite,score:0.01739542221113763
+match_buttoning:teaInvite
+match_pic:screenshot_20240816_155541.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaInvite,score:0.01739542221113763
+match_buttoning:teaInvite
+match_pic:screenshot_20240816_155545.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaInvite,score:0.9999995315852863
+match_pic:screenshot_20240816_155557.png
+area:teaTalk,score: 0.9838175775871398
+Current screen is: $teaTalk$, score: 0.9838175775871398
+match_pic:screenshot_20240816_155605.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_155614.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_155622.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_155631.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_155639.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_155648.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_155656.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_155705.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_155713.png
+image:ld_home,score: 0.9629666056120147
+area:home,score: 0.9518408930969736
+image:book,score: 0.901623551754675
+image:item,score: 0.9066739556329294
+image:confirmCall3,score: 0.956717708870642
+image:confirmCall4,score: 0.9617996844074901
+image:confirmCall5,score: 0.9417842947382005
+image:confirmCall6,score: 0.9655542315245231
+area:fightMoneyFive,score: 0.9547410493521601
+area:fightBookFive,score: 0.9559037515497854
+area:fightWeaponFive,score: 0.9559336576430121
+Current screen is: $confirmCall6$, score: 0.9655542315245231
+喝茶结束
+match_pic:screenshot_20240816_155715.png
+image:ld_home,score: 0.9629666056120147
+area:home,score: 0.9518408930969736
+image:book,score: 0.901623551754675
+image:item,score: 0.9066739556329294
+image:confirmCall3,score: 0.956717708870642
+image:confirmCall4,score: 0.9617996844074901
+image:confirmCall5,score: 0.9417842947382005
+image:confirmCall6,score: 0.9655542315245231
+area:fightMoneyFive,score: 0.9547410493521601
+area:fightBookFive,score: 0.9559037515497854
+area:fightWeaponFive,score: 0.9559336576430121
+Current screen is: $confirmCall6$, score: 0.9655542315245231
+match_pic:screenshot_20240816_155717.png
+image:ld_home,score: 0.9629666056120147
+area:home,score: 0.9518408930969736
+image:book,score: 0.901623551754675
+image:item,score: 0.9066739556329294
+image:confirmCall3,score: 0.956717708870642
+image:confirmCall4,score: 0.9617996844074901
+image:confirmCall5,score: 0.9417842947382005
+image:confirmCall6,score: 0.9655542315245231
+area:fightMoneyFive,score: 0.9547410493521601
+area:fightBookFive,score: 0.9559037515497854
+area:fightWeaponFive,score: 0.9559336576430121
+Current screen is: $confirmCall6$, score: 0.9655542315245231
+match_pic:screenshot_20240816_155722.png
+area:office,score: 0.9021977311422824
+area:teaHouse,score: 0.9999478590323657
+Current screen is: $teaHouse$, score: 0.9999478590323657
+match_pic:screenshot_20240816_155728.png
+image:dispatchCompany,score: 0.99965506796995
+Current screen is: $dispatchCompany$, score: 0.99965506796995
+match_pic:screenshot_20240816_155733.png
+area:home,score: 0.999999999015218
+area:office,score: 0.9052640998603263
+area:fight,score: 0.9741240377420501
+Current screen is: $home$, score: 0.999999999015218
+这是主页
+match_pic:screenshot_20240816_155740.png
+image:dispatchCompany,score: 0.9999182722218105
+Current screen is: $dispatchCompany$, score: 0.9999182722218105
+进入派遣公司
+match_pic:screenshot_20240816_155746.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+match_buttoning:teaChoice
+match_pic:screenshot_20240816_155752.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaChoice,score:0.9999978870420281
+match_buttoning:teaWait
+match_pic:screenshot_20240816_155803.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaWait,score:0.9999991828600505
+match_pic:screenshot_20240816_155812.png
+area:bookChange,score: 0.982674284080699
+area:confirmItem,score: 0.9798819203488202
+area:fight,score: 0.9547405687919385
+area:heartFull,score: 0.9833652357699976
+area:teaGet,score: 0.9999981087140056
+area:warehouseDeleteConfirm,score: 0.9754378944017403
+Current screen is: $teaGet$, score: 0.9999981087140056
+match_buttoning:teaInvite
+match_pic:screenshot_20240816_155821.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaInvite,score:0.01739542221113763
+match_buttoning:teaInvite
+match_pic:screenshot_20240816_155825.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaInvite,score:0.01739542221113763
+match_buttoning:teaInvite
+match_pic:screenshot_20240816_155828.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaInvite,score:0.01739542221113763
+match_buttoning:teaInvite
+match_pic:screenshot_20240816_155832.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaInvite,score:0.01739542221113763
+match_buttoning:teaInvite
+match_pic:screenshot_20240816_155835.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaInvite,score:0.01739542221113763
+match_buttoning:teaInvite
+match_pic:screenshot_20240816_155838.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaInvite,score:0.01739542221113763
+match_buttoning:teaInvite
+match_pic:screenshot_20240816_155842.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaInvite,score:0.01739542221113763
+match_buttoning:teaInvite
+match_pic:screenshot_20240816_155845.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaInvite,score:0.01739542221113763
+match_buttoning:teaInvite
+match_pic:screenshot_20240816_155849.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaInvite,score:0.01739542221113763
+match_buttoning:teaInvite
+match_pic:screenshot_20240816_155852.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaInvite,score:0.01739542221113763
+match_buttoning:teaInvite
+match_pic:screenshot_20240816_155856.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaInvite,score:0.9999995315852863
+match_pic:screenshot_20240816_155908.png
+area:teaTalk,score: 0.9838175775871398
+Current screen is: $teaTalk$, score: 0.9838175775871398
+match_pic:screenshot_20240816_155916.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_155925.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_155934.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_155943.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_155951.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_160000.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_160009.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_160018.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_160026.png
+image:ld_home,score: 0.9780150513153089
+area:home,score: 0.9518319400040279
+image:confirmCall3,score: 0.9639385012702675
+image:confirmCall4,score: 0.9713793161337094
+image:confirmCall5,score: 0.9558391647365828
+image:confirmCall6,score: 0.9736539332021401
+area:fightMoneyFive,score: 0.9547410493521601
+area:fightBookFive,score: 0.9559037515497854
+area:fightWeaponFive,score: 0.9559336576430121
+Current screen is: $ld_home$, score: 0.9780150513153089
+喝茶结束
+match_pic:screenshot_20240816_160028.png
+image:ld_home,score: 0.9778694691465037
+area:home,score: 0.9518319400040279
+image:confirmCall3,score: 0.9637650113263534
+image:confirmCall4,score: 0.9712059906514664
+image:confirmCall5,score: 0.9557150096577329
+image:confirmCall6,score: 0.9734975866170256
+area:fightMoneyFive,score: 0.9547410493521601
+area:fightBookFive,score: 0.9559037515497854
+area:fightWeaponFive,score: 0.9559336576430121
+Current screen is: $ld_home$, score: 0.9778694691465037
+match_pic:screenshot_20240816_160030.png
+image:ld_home,score: 0.9778572249228548
+area:home,score: 0.9518319400040279
+image:confirmCall3,score: 0.9637560056364108
+image:confirmCall4,score: 0.9711974174768544
+image:confirmCall5,score: 0.9557267356626159
+image:confirmCall6,score: 0.9735824389915575
+area:fightMoneyFive,score: 0.9547410493521601
+area:fightBookFive,score: 0.9559037515497854
+area:fightWeaponFive,score: 0.9559336576430121
+Current screen is: $ld_home$, score: 0.9778572249228548
+match_pic:screenshot_20240816_160036.png
+area:office,score: 0.9021977311422824
+area:teaHouse,score: 0.9999478590323657
+Current screen is: $teaHouse$, score: 0.9999478590323657
+match_pic:screenshot_20240816_160042.png
+image:dispatchCompany,score: 0.9996987690239413
+Current screen is: $dispatchCompany$, score: 0.9996987690239413
+match_pic:screenshot_20240816_160048.png
+area:home,score: 0.999999999015218
+area:office,score: 0.9054851934372976
+area:fight,score: 0.9740855052202333
+Current screen is: $home$, score: 0.999999999015218
+这是主页
+match_pic:screenshot_20240816_160055.png
+image:dispatchCompany,score: 0.9998906154872242
+Current screen is: $dispatchCompany$, score: 0.9998906154872242
+进入派遣公司
+match_pic:screenshot_20240816_160100.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+match_buttoning:teaChoice
+match_pic:screenshot_20240816_160106.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaChoice,score:0.9999978870420281
+match_buttoning:teaWait
+match_pic:screenshot_20240816_160118.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaWait,score:0.9999991828600505
+match_pic:screenshot_20240816_160127.png
+area:fight,score: 0.9547405687919385
+area:teaGet,score: 0.9999981087140056
+Current screen is: $teaGet$, score: 0.9999981087140056
+match_buttoning:teaInvite
+match_pic:screenshot_20240816_160135.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaInvite,score:0.9999995315852863
+match_pic:screenshot_20240816_160147.png
+area:teaTalk,score: 0.9838175775871398
+Current screen is: $teaTalk$, score: 0.9838175775871398
+match_pic:screenshot_20240816_160156.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_160205.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_160213.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_160222.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_160231.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_160239.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_160248.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_160256.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_160305.png
+image:ld_home,score: 0.9638564906134215
+area:home,score: 0.9518408930969736
+image:book,score: 0.9016735046654099
+image:item,score: 0.9067861764297989
+image:confirmCall3,score: 0.957439377200869
+image:confirmCall4,score: 0.9626119041540461
+image:confirmCall5,score: 0.9411172591408427
+image:confirmCall6,score: 0.9663876696452574
+area:fightMoneyFive,score: 0.9547410493521601
+area:fightBookFive,score: 0.9559037515497854
+area:fightWeaponFive,score: 0.9559336576430121
+Current screen is: $confirmCall6$, score: 0.9663876696452574
+喝茶结束
+match_pic:screenshot_20240816_160307.png
+image:ld_home,score: 0.9638564906134215
+area:home,score: 0.9518408930969736
+image:book,score: 0.9016735046654099
+image:item,score: 0.9067861764297989
+image:confirmCall3,score: 0.957439377200869
+image:confirmCall4,score: 0.9626119041540461
+image:confirmCall5,score: 0.9411172591408427
+image:confirmCall6,score: 0.9663876696452574
+area:fightMoneyFive,score: 0.9547410493521601
+area:fightBookFive,score: 0.9559037515497854
+area:fightWeaponFive,score: 0.9559336576430121
+Current screen is: $confirmCall6$, score: 0.9663876696452574
+match_pic:screenshot_20240816_160308.png
+image:ld_home,score: 0.9638564906134215
+area:home,score: 0.9518408930969736
+image:book,score: 0.9016735046654099
+image:item,score: 0.9067861764297989
+image:confirmCall3,score: 0.957439377200869
+image:confirmCall4,score: 0.9626119041540461
+image:confirmCall5,score: 0.9411172591408427
+image:confirmCall6,score: 0.9663876696452574
+area:fightMoneyFive,score: 0.9547410493521601
+area:fightBookFive,score: 0.9559037515497854
+area:fightWeaponFive,score: 0.9559336576430121
+Current screen is: $confirmCall6$, score: 0.9663876696452574
+match_pic:screenshot_20240816_160313.png
+area:office,score: 0.9021977311422824
+area:teaHouse,score: 0.9999478590323657
+Current screen is: $teaHouse$, score: 0.9999478590323657
+match_pic:screenshot_20240816_160319.png
+image:dispatchCompany,score: 0.999732234338542
+Current screen is: $dispatchCompany$, score: 0.999732234338542
+match_pic:screenshot_20240816_160325.png
+area:home,score: 0.999999999015218
+area:office,score: 0.9054770819107895
+area:fight,score: 0.9740746864231259
+Current screen is: $home$, score: 0.999999999015218
+这是主页
+match_pic:screenshot_20240816_160331.png
+image:dispatchCompany,score: 0.9999309216528232
+Current screen is: $dispatchCompany$, score: 0.9999309216528232
+进入派遣公司
+match_pic:screenshot_20240816_160337.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+match_buttoning:teaChoice
+match_pic:screenshot_20240816_160343.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaChoice,score:0.9999978870420281
+match_buttoning:teaWait
+match_pic:screenshot_20240816_160354.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaWait,score:0.9999991828600505
+match_pic:screenshot_20240816_160403.png
+area:bookChange,score: 0.9272284854703742
+area:confirmItem,score: 0.9274463061751692
+area:fight,score: 0.9547405687919385
+area:heartFull,score: 0.9262646004413462
+area:teaGet,score: 0.9999981087140056
+area:warehouseDeleteConfirm,score: 0.927565221279945
+Current screen is: $teaGet$, score: 0.9999981087140056
+match_buttoning:teaInvite
+match_pic:screenshot_20240816_160412.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaInvite,score:0.01739542221113763
+match_buttoning:teaInvite
+match_pic:screenshot_20240816_160415.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaInvite,score:0.01739542221113763
+match_buttoning:teaInvite
+match_pic:screenshot_20240816_160418.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaInvite,score:0.9999995315852863
+match_pic:screenshot_20240816_160430.png
+area:teaTalk,score: 0.9838175775871398
+Current screen is: $teaTalk$, score: 0.9838175775871398
+match_pic:screenshot_20240816_160438.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_160447.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_160455.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_160503.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_160511.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_160520.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_160528.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_160536.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_160544.png
+image:ld_home,score: 0.9774108405492844
+area:home,score: 0.9517775349912648
+image:confirmCall3,score: 0.9631018644365854
+image:confirmCall4,score: 0.9706437605422443
+image:confirmCall5,score: 0.9555159446437027
+image:confirmCall6,score: 0.9731882365059822
+area:fightMoneyFive,score: 0.9547410493521601
+area:fightBookFive,score: 0.9559037515497854
+area:fightWeaponFive,score: 0.9559336576430121
+Current screen is: $ld_home$, score: 0.9774108405492844
+喝茶结束
+match_pic:screenshot_20240816_160546.png
+image:ld_home,score: 0.977461255255887
+area:home,score: 0.9518319400040279
+image:confirmCall3,score: 0.9631643497238324
+image:confirmCall4,score: 0.9707026859715391
+image:confirmCall5,score: 0.9555515857194161
+image:confirmCall6,score: 0.9731299262836481
+area:fightMoneyFive,score: 0.9547410493521601
+area:fightBookFive,score: 0.9559037515497854
+area:fightWeaponFive,score: 0.9559336576430121
+Current screen is: $ld_home$, score: 0.977461255255887
+match_pic:screenshot_20240816_160548.png
+image:ld_home,score: 0.977418226489598
+area:home,score: 0.9518319400040279
+image:confirmCall3,score: 0.9631026446006138
+image:confirmCall4,score: 0.9706459732607936
+image:confirmCall5,score: 0.9555267015208192
+image:confirmCall6,score: 0.9730922948618054
+area:fightMoneyFive,score: 0.9547410493521601
+area:fightBookFive,score: 0.9559037515497854
+area:fightWeaponFive,score: 0.9559336576430121
+Current screen is: $ld_home$, score: 0.977418226489598
+match_pic:screenshot_20240816_160553.png
+area:office,score: 0.9021977311422824
+area:teaHouse,score: 0.9999478590323657
+Current screen is: $teaHouse$, score: 0.9999478590323657
+match_pic:screenshot_20240816_160559.png
+image:dispatchCompany,score: 0.9997466798357918
+Current screen is: $dispatchCompany$, score: 0.9997466798357918
+match_pic:screenshot_20240816_160605.png
+area:home,score: 0.999999999015218
+area:office,score: 0.9061571806233082
+area:fight,score: 0.9739579530459593
+Current screen is: $home$, score: 0.999999999015218
+这是主页
+match_pic:screenshot_20240816_160612.png
+image:dispatchCompany,score: 0.9999518177819177
+Current screen is: $dispatchCompany$, score: 0.9999518177819177
+进入派遣公司
+match_pic:screenshot_20240816_160617.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+match_buttoning:teaChoice
+match_pic:screenshot_20240816_160623.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaChoice,score:0.9999978870420281
+match_buttoning:teaWait
+match_pic:screenshot_20240816_160634.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaWait,score:0.9999991828600505
+match_pic:screenshot_20240816_160643.png
+area:bookChange,score: 0.9573595056299445
+area:confirmItem,score: 0.9551360901668713
+area:fight,score: 0.9547405687919385
+area:heartFull,score: 0.9578286822576804
+area:teaGet,score: 0.9999981087140056
+area:warehouseDeleteConfirm,score: 0.9509397467665767
+Current screen is: $teaGet$, score: 0.9999981087140056
+match_buttoning:teaInvite
+match_pic:screenshot_20240816_160652.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaInvite,score:0.01739542221113763
+match_buttoning:teaInvite
+match_pic:screenshot_20240816_160655.png
+area:office,score: 0.9008227063324346
+area:teaHouse,score: 0.9999999968316473
+Current screen is: $teaHouse$, score: 0.9999999968316473
+button:teaInvite,score:0.9999995315852863
+match_pic:screenshot_20240816_160707.png
+area:teaTalk,score: 0.9838175775871398
+Current screen is: $teaTalk$, score: 0.9838175775871398
+match_pic:screenshot_20240816_160715.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_160723.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_160732.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_160740.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_160748.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_160757.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_160805.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_160814.png
+area:teaTalk,score: 0.9999998709989837
+Current screen is: $teaTalk$, score: 0.9999998709989837
+match_pic:screenshot_20240816_160822.png
+image:ld_home,score: 0.977668960865494
+area:home,score: 0.9518252919637888
+image:confirmCall3,score: 0.9634922946743312
+image:confirmCall4,score: 0.9710221675561903
+image:confirmCall5,score: 0.9557765262508368
+image:confirmCall6,score: 0.9734034532802809
+area:fightMoneyFive,score: 0.9547410493521601
+area:fightBookFive,score: 0.9559037515497854
+area:fightWeaponFive,score: 0.9559336576430121
+Current screen is: $ld_home$, score: 0.977668960865494
+喝茶结束
+Deleted: ./pic\screenshot_20240816_155436.png
+Deleted: ./pic\screenshot_20240816_155442.png
+Deleted: ./pic\screenshot_20240816_155445.png
+Deleted: ./pic\screenshot_20240816_155448.png
+Deleted: ./pic\screenshot_20240816_155454.png
+Deleted: ./pic\screenshot_20240816_155500.png
+Deleted: ./pic\screenshot_20240816_155506.png
+Deleted: ./pic\screenshot_20240816_155517.png
+Deleted: ./pic\screenshot_20240816_155526.png
+Deleted: ./pic\screenshot_20240816_155535.png
+Deleted: ./pic\screenshot_20240816_155538.png
+Deleted: ./pic\screenshot_20240816_155541.png
+Deleted: ./pic\screenshot_20240816_155545.png
+Deleted: ./pic\screenshot_20240816_155557.png
+Deleted: ./pic\screenshot_20240816_155605.png
+Deleted: ./pic\screenshot_20240816_155614.png
+Deleted: ./pic\screenshot_20240816_155622.png
+Deleted: ./pic\screenshot_20240816_155631.png
+Deleted: ./pic\screenshot_20240816_155639.png
+Deleted: ./pic\screenshot_20240816_155648.png
+Deleted: ./pic\screenshot_20240816_155656.png
+Deleted: ./pic\screenshot_20240816_155705.png
+Deleted: ./pic\screenshot_20240816_155713.png
+Deleted: ./pic\screenshot_20240816_155715.png
+Deleted: ./pic\screenshot_20240816_155717.png
+Deleted: ./pic\screenshot_20240816_155722.png
+Deleted: ./pic\screenshot_20240816_155728.png
+Deleted: ./pic\screenshot_20240816_155733.png
+Deleted: ./pic\screenshot_20240816_155740.png
+Deleted: ./pic\screenshot_20240816_155746.png
+Deleted: ./pic\screenshot_20240816_155752.png
+Deleted: ./pic\screenshot_20240816_155803.png
+Deleted: ./pic\screenshot_20240816_155812.png
+Deleted: ./pic\screenshot_20240816_155821.png
+Deleted: ./pic\screenshot_20240816_155825.png
+Deleted: ./pic\screenshot_20240816_155828.png
+Deleted: ./pic\screenshot_20240816_155832.png
+Deleted: ./pic\screenshot_20240816_155835.png
+Deleted: ./pic\screenshot_20240816_155838.png
+Deleted: ./pic\screenshot_20240816_155842.png
+Deleted: ./pic\screenshot_20240816_155845.png
+Deleted: ./pic\screenshot_20240816_155849.png
+Deleted: ./pic\screenshot_20240816_155852.png
+Deleted: ./pic\screenshot_20240816_155856.png
+Deleted: ./pic\screenshot_20240816_155908.png
+Deleted: ./pic\screenshot_20240816_155916.png
+Deleted: ./pic\screenshot_20240816_155925.png
+Deleted: ./pic\screenshot_20240816_155934.png
+Deleted: ./pic\screenshot_20240816_155943.png
+Deleted: ./pic\screenshot_20240816_155951.png
+Deleted: ./pic\screenshot_20240816_160000.png
+Deleted: ./pic\screenshot_20240816_160009.png
+Deleted: ./pic\screenshot_20240816_160018.png
+Deleted: ./pic\screenshot_20240816_160026.png
+Deleted: ./pic\screenshot_20240816_160028.png
+Deleted: ./pic\screenshot_20240816_160030.png
+Deleted: ./pic\screenshot_20240816_160036.png
+Deleted: ./pic\screenshot_20240816_160042.png
+Deleted: ./pic\screenshot_20240816_160048.png
+Deleted: ./pic\screenshot_20240816_160055.png
+Deleted: ./pic\screenshot_20240816_160100.png
+Deleted: ./pic\screenshot_20240816_160106.png
+Deleted: ./pic\screenshot_20240816_160118.png
+Deleted: ./pic\screenshot_20240816_160127.png
+Deleted: ./pic\screenshot_20240816_160135.png
+Deleted: ./pic\screenshot_20240816_160147.png
+Deleted: ./pic\screenshot_20240816_160156.png
+Deleted: ./pic\screenshot_20240816_160205.png
+Deleted: ./pic\screenshot_20240816_160213.png
+Deleted: ./pic\screenshot_20240816_160222.png
+Deleted: ./pic\screenshot_20240816_160231.png
+Deleted: ./pic\screenshot_20240816_160239.png
+Deleted: ./pic\screenshot_20240816_160248.png
+Deleted: ./pic\screenshot_20240816_160256.png
+Deleted: ./pic\screenshot_20240816_160305.png
+Deleted: ./pic\screenshot_20240816_160307.png
+Deleted: ./pic\screenshot_20240816_160308.png
+Deleted: ./pic\screenshot_20240816_160313.png
+Deleted: ./pic\screenshot_20240816_160319.png
+Deleted: ./pic\screenshot_20240816_160325.png
+Deleted: ./pic\screenshot_20240816_160331.png
+Deleted: ./pic\screenshot_20240816_160337.png
+Deleted: ./pic\screenshot_20240816_160343.png
+Deleted: ./pic\screenshot_20240816_160354.png
+Deleted: ./pic\screenshot_20240816_160403.png
+Deleted: ./pic\screenshot_20240816_160412.png
+Deleted: ./pic\screenshot_20240816_160415.png
+Deleted: ./pic\screenshot_20240816_160418.png
+Deleted: ./pic\screenshot_20240816_160430.png
+Deleted: ./pic\screenshot_20240816_160438.png
+Deleted: ./pic\screenshot_20240816_160447.png
+Deleted: ./pic\screenshot_20240816_160455.png
+Deleted: ./pic\screenshot_20240816_160503.png
+Deleted: ./pic\screenshot_20240816_160511.png
+Deleted: ./pic\screenshot_20240816_160520.png
+Deleted: ./pic\screenshot_20240816_160528.png
+Deleted: ./pic\screenshot_20240816_160536.png
+Deleted: ./pic\screenshot_20240816_160544.png
+Deleted: ./pic\screenshot_20240816_160546.png
+Deleted: ./pic\screenshot_20240816_160548.png
+Deleted: ./pic\screenshot_20240816_160553.png
+Deleted: ./pic\screenshot_20240816_160559.png
+Deleted: ./pic\screenshot_20240816_160605.png
+Deleted: ./pic\screenshot_20240816_160612.png
+Deleted: ./pic\screenshot_20240816_160617.png
+Deleted: ./pic\screenshot_20240816_160623.png
+Deleted: ./pic\screenshot_20240816_160634.png
+Deleted: ./pic\screenshot_20240816_160643.png
+Deleted: ./pic\screenshot_20240816_160652.png
+Deleted: ./pic\screenshot_20240816_160655.png
+Deleted: ./pic\screenshot_20240816_160707.png
+Deleted: ./pic\screenshot_20240816_160715.png
+Deleted: ./pic\screenshot_20240816_160723.png
+Deleted: ./pic\screenshot_20240816_160732.png
+Deleted: ./pic\screenshot_20240816_160740.png
+Deleted: ./pic\screenshot_20240816_160748.png
+Deleted: ./pic\screenshot_20240816_160757.png
+Deleted: ./pic\screenshot_20240816_160805.png
+Deleted: ./pic\screenshot_20240816_160814.png
+Deleted: ./pic\screenshot_20240816_160822.png
+match_pic:screenshot_20240816_160824.png
+image:ld_home,score: 0.9775154574698449
+area:home,score: 0.9518319400040279
+image:confirmCall3,score: 0.963325119953009
+image:confirmCall4,score: 0.9708514177503621
+image:confirmCall5,score: 0.9556302745030952
+image:confirmCall6,score: 0.9732359346243981
+area:fightMoneyFive,score: 0.9547410493521601
+area:fightBookFive,score: 0.9559037515497854
+area:fightWeaponFive,score: 0.9559336576430121
+Current screen is: $ld_home$, score: 0.9775154574698449
+match_pic:screenshot_20240816_160826.png
+image:ld_home,score: 0.9777350081759929
+area:home,score: 0.9518319400040279
+image:confirmCall3,score: 0.9635409081111905
+image:confirmCall4,score: 0.9710620343101158
+image:confirmCall5,score: 0.9557545994272783
+image:confirmCall6,score: 0.9733381740538906
+area:fightMoneyFive,score: 0.9547410493521601
+area:fightBookFive,score: 0.9559037515497854
+area:fightWeaponFive,score: 0.9559336576430121
+Current screen is: $ld_home$, score: 0.9777350081759929
+match_pic:screenshot_20240816_160831.png
+area:office,score: 0.9021977311422824
+area:teaHouse,score: 0.9999478590323657
+Current screen is: $teaHouse$, score: 0.9999478590323657
+match_pic:screenshot_20240816_160837.png
+image:dispatchCompany,score: 0.9997628064933328
+Current screen is: $dispatchCompany$, score: 0.9997628064933328
+match_pic:screenshot_20240816_160843.png
+area:home,score: 0.999999999015218
+area:office,score: 0.9054904933625029
+area:fight,score: 0.9740727413702317
+Current screen is: $home$, score: 0.999999999015218
+这是主页
+match_pic:screenshot_20240816_160849.png
+image:getThings,score: 0.9283134718362867
+area:home,score: 0.9732824514562882
+area:bookChange,score: 0.9772005067908646
+area:confirmItem,score: 0.9773413043913254
+image:callMain,score: 0.9329747572197753
+image:callEnd,score: 0.9773085971374368
+image:confirmCall0,score: 0.9989818844968429
+image:confirmCall7,score: 0.9653694018969263
+area:store,score: 0.9536509507945556
+area:heartFull,score: 0.9761127356819007
+area:mail,score: 0.9436101498593605
+area:warehouse,score: 0.9044046301978552
+area:warehouseDeleteConfirm,score: 0.9769072793309209
+Current screen is: $confirmCall0$, score: 0.9989818844968429
+match_pic:screenshot_20240816_160855.png
+image:getThings,score: 0.9249755597440885
+image:machine,score: 0.9110052824455324
+image:callMain,score: 0.9147801828505926
+image:callNum,score: 0.9147400768350321
+image:confirmCall2,score: 0.992950841173679
+Current screen is: $confirmCall2$, score: 0.992950841173679
+match_pic:screenshot_20240816_160859.png
+image:ld_home,score: 0.9825211986366623
+area:home,score: 0.9459929847999451
+area:office,score: 0.9948712544462689
+area:bookChange,score: 0.9350271143950084
+area:confirmItem,score: 0.9365964868404735
+image:confirmCall3,score: 0.9999879967714711
+image:confirmCall4,score: 0.9989989246524953
+image:confirmCall5,score: 0.9707646618284634
+image:confirmCall6,score: 0.979193136392908
+area:fightMoneyFive,score: 0.9437087813808459
+area:fightBookFive,score: 0.9446814396730724
+area:fightWeaponFive,score: 0.9447076533269275
+area:heartFull,score: 0.9333464150955088
+area:warehouseDeleteConfirm,score: 0.9380230646082512
+Current screen is: $confirmCall3$, score: 0.9999879967714711
+match_pic:screenshot_20240816_160902.png
+image:ld_home,score: 0.988315339445654
+area:home,score: 0.9833439390015316
+area:office,score: 0.9949249247237058
+area:bookChange,score: 0.9880107819871747
+area:confirmItem,score: 0.9899165494555254
+image:confirmCall3,score: 0.9987956004213865
+image:confirmCall4,score: 0.9999530937933454
+image:confirmCall5,score: 0.9740808130348422
+image:confirmCall6,score: 0.9845098555081715
+area:fightMoneyFive,score: 0.9418216460655487
+area:fightBookFive,score: 0.9427957403430143
+area:fightWeaponFive,score: 0.9428118840359175
+area:heartFull,score: 0.9861792062712413
+area:warehouseDeleteConfirm,score: 0.991142953590436
+Current screen is: $confirmCall4$, score: 0.9999530937933454
+match_pic:screenshot_20240816_160905.png
+image:ld_home,score: 0.9893920370895742
+area:home,score: 0.9819236253016991
+area:office,score: 0.9911320665961317
+area:bookChange,score: 0.9935627674420897
+area:confirmItem,score: 0.9948692816748043
+image:confirmCall3,score: 0.9797727842047275
+image:confirmCall4,score: 0.9852586935955523
+image:confirmCall5,score: 0.9639929382169239
+image:confirmCall6,score: 0.9999114606403982
+area:fightMoneyFive,score: 0.9000642103740389
+area:fightBookFive,score: 0.9001534516190406
+area:fightWeaponFive,score: 0.9001415322660734
+area:heartFull,score: 0.9919337008263234
+area:warehouseDeleteConfirm,score: 0.9961107124375952
+Current screen is: $confirmCall6$, score: 0.9999114606403982
+match_pic:screenshot_20240816_160908.png
+area:bookChange,score: 0.9017298211439589
+area:confirmItem,score: 0.9007307565790129
+image:callMain,score: 0.9345617399466567
+image:callEnd,score: 0.9380275532829101
+image:confirmCall0,score: 0.9470157088069094
+image:confirmCall7,score: 0.9276353407731018
+area:dailyAward,score: 0.9033333356709748
+area:weeklyAward,score: 0.9014999014259054
+area:heartFull,score: 0.9018414667128803
+area:warehouseDeleteConfirm,score: 0.9001625104443362
+Current screen is: $confirmCall0$, score: 0.9470157088069094
+match_pic:screenshot_20240816_160916.png
+image:getThings,score: 0.9340073468592592
+area:bookChange,score: 0.903186711565597
+area:confirmItem,score: 0.9018483158852153
+image:callMain,score: 0.9626102837839138
+image:callEnd,score: 0.9396844028235415
+image:confirmCall0,score: 0.9354854807561903
+image:confirmCall2,score: 0.9037527309403566
+image:confirmCall7,score: 0.9446409028318138
+area:dailyAward,score: 0.9033333356709748
+area:weeklyAward,score: 0.9014999014259054
+area:heartFull,score: 0.9035380745364616
+area:warehouseDeleteConfirm,score: 0.9002797150486586
+Current screen is: $callMain$, score: 0.9626102837839138
+match_pic:screenshot_20240816_160919.png
+image:getThings,score: 0.9345037237374957
+area:bookChange,score: 0.9070964501384803
+area:confirmItem,score: 0.9060867721668865
+image:callMain,score: 0.9627821435325641
+image:callNum,score: 0.9001793317892222
+image:callEnd,score: 0.9395553446317102
+image:confirmCall0,score: 0.934691325348558
+image:confirmCall2,score: 0.9038870513734507
+image:confirmCall7,score: 0.9447899841335885
+area:dailyAward,score: 0.9033333356709748
+area:weeklyAward,score: 0.9014999014259054
+area:heartFull,score: 0.9072589488689833
+area:warehouseDeleteConfirm,score: 0.9050079594317634
+Current screen is: $callMain$, score: 0.9627821435325641
+match_pic:screenshot_20240816_160924.png
+image:getThings,score: 0.9697133120728916
+image:machine,score: 0.9317948209688501
+image:callMain,score: 0.9999999490355971
+image:callNum,score: 0.9503168694428135
+image:callEnd,score: 0.941956857199822
+image:confirmCall0,score: 0.9278102252694914
+image:confirmCall1,score: 0.917585668319082
+image:confirmCall2,score: 0.9190259733572996
+image:confirmCall7,score: 0.9567950339979987
+area:store,score: 0.9536509507945556
+area:mail,score: 0.9436101498593605
+area:warehouse,score: 0.9044046301978552
+Current screen is: $callMain$, score: 0.9999999490355971
+match_pic:screenshot_20240816_160930.png
+area:home,score: 0.999999999015218
+area:office,score: 0.9054904933625029
+area:fight,score: 0.9740727413702317
+Current screen is: $home$, score: 0.999999999015218
+这是主页
+Confirm Call Error
+fight start
+match_pic:screenshot_20240816_160934.png
+area:home,score: 0.999999999015218
+area:office,score: 0.9054904933625029
+area:fight,score: 0.9740727413702317
+Current screen is: $home$, score: 0.999999999015218
+这是主页
+match_pic:screenshot_20240816_160940.png
+area:fight,score: 0.9992286118656705
+Current screen is: $fight$, score: 0.9992286118656705
+match_pic:screenshot_20240816_160949.png
+image:fightMoney,score: 0.918821455583059
+image:fightBook,score: 0.9999998297332892
+Current screen is: $fightBook$, score: 0.9999998297332892
+match_pic:screenshot_20240816_160954.png
+area:fightMoneyFive,score: 0.9999823438012926
+area:fightBookFive,score: 0.9999999946424316
+area:fightWeaponFive,score: 0.9999948099075798
+Current screen is: $fightBookFive$, score: 0.9999999946424316
+match_pic:screenshot_20240816_160959.png
+area:fightMoneyNum,score: 0.9954253399887841
+area:fightBookNum,score: 0.9999995259132265
+area:fightWeaponNum,score: 0.933821136581445
+Current screen is: $fightBookNum$, score: 0.9999995259132265
+match_pic:screenshot_20240816_161007.png
+area:fightMoneyNum,score: 0.9953762659495393
+area:fightBookNum,score: 0.9999990513822663
+area:fightWeaponNum,score: 0.9340088046465627
+Current screen is: $fightBookNum$, score: 0.9999990513822663
+match_pic:screenshot_20240816_161013.png
+image:getThings,score: 0.980272790638324
+area:bookChange,score: 0.9997889434509282
+image:machine,score: 0.9494384986630416
+area:confirmItem,score: 0.9984071793303197
+image:callMain,score: 0.9342688434085434
+image:callNum,score: 0.9926981534997856
+image:confirmCall1,score: 0.9260829459648302
+image:confirmCall7,score: 0.922301721444
+area:heartFull,score: 0.9999999931742215
+area:warehouseDeleteConfirm,score: 0.9931708500436298
+Current screen is: $heartFull$, score: 0.9999999931742215
+match_pic:screenshot_20240816_161020.png
+area:fightEnd,score: 0.9931477585513998
+image:fightBook,score: 0.9249020406963212
+Current screen is: $fightEnd$, score: 0.9931477585513998
+match_pic:screenshot_20240816_161023.png
+area:fightEnd,score: 0.9913249296039037
+image:fightBook,score: 0.9385939570111094
+Current screen is: $fightEnd$, score: 0.9913249296039037
+Deleted: ./pic\screenshot_20240816_160824.png
+Deleted: ./pic\screenshot_20240816_160826.png
+Deleted: ./pic\screenshot_20240816_160831.png
+Deleted: ./pic\screenshot_20240816_160837.png
+Deleted: ./pic\screenshot_20240816_160843.png
+Deleted: ./pic\screenshot_20240816_160849.png
+Deleted: ./pic\screenshot_20240816_160855.png
+Deleted: ./pic\screenshot_20240816_160859.png
+Deleted: ./pic\screenshot_20240816_160902.png
+Deleted: ./pic\screenshot_20240816_160905.png
+Deleted: ./pic\screenshot_20240816_160908.png
+Deleted: ./pic\screenshot_20240816_160916.png
+Deleted: ./pic\screenshot_20240816_160919.png
+Deleted: ./pic\screenshot_20240816_160924.png
+Deleted: ./pic\screenshot_20240816_160930.png
+Deleted: ./pic\screenshot_20240816_160934.png
+Deleted: ./pic\screenshot_20240816_160940.png
+Deleted: ./pic\screenshot_20240816_160949.png
+Deleted: ./pic\screenshot_20240816_160954.png
+Deleted: ./pic\screenshot_20240816_160959.png
+Deleted: ./pic\screenshot_20240816_161007.png
+Deleted: ./pic\screenshot_20240816_161013.png
+Deleted: ./pic\screenshot_20240816_161020.png
+Deleted: ./pic\screenshot_20240816_161023.png
+match_pic:screenshot_20240816_161031.png
+area:fightMoneyFive,score: 0.9999823438012926
+area:fightBookFive,score: 0.9999999946424316
+area:fightWeaponFive,score: 0.9999948099075798
+Current screen is: $fightBookFive$, score: 0.9999999946424316
+match_pic:screenshot_20240816_161036.png
+image:fightMoney,score: 0.918828433584927
+image:fightBook,score: 0.9999956817518781
+Current screen is: $fightBook$, score: 0.9999956817518781
+match_pic:screenshot_20240816_161041.png
+area:fight,score: 0.9987129997498485
+Current screen is: $fight$, score: 0.9987129997498485
+match_pic:screenshot_20240816_161047.png
+area:home,score: 0.999999999015218
+area:office,score: 0.9054904933625029
+area:fight,score: 0.9740727413702317
+Current screen is: $home$, score: 0.999999999015218
+这是主页
+match_pic:screenshot_20240816_161053.png
+area:store,score: 0.9435288533718467
+area:mail,score: 0.9700440512488664
+area:warehouse,score: 0.9999999902865819
+Current screen is: $warehouse$, score: 0.9999999902865819
+进入物资库
+match_buttoning:warehouseSelect
+match_pic:screenshot_20240816_161057.png
+area:store,score: 0.9435288533718467
+area:mail,score: 0.9700440512488664
+area:warehouse,score: 0.9999999902865819
+Current screen is: $warehouse$, score: 0.9999999902865819
+button:warehouseSelect,score:0.999999967155087
+match_pic:screenshot_20240816_161108.png
+image:getThings,score: 0.9815295710482942
+area:bookChange,score: 0.9952664038140262
+image:machine,score: 0.9204894698908194
+area:confirmItem,score: 0.9977259787123491
+image:callMain,score: 0.9547325286096031
+image:callNum,score: 0.9448455184676892
+image:callEnd,score: 0.9689782038103377
+image:confirmCall0,score: 0.9694924736343
+image:confirmCall2,score: 0.9132960640940935
+image:confirmCall7,score: 0.978477306833806
+area:heartFull,score: 0.9931700903326415
+area:warehouseDeleteConfirm,score: 0.9999999986095691
+Current screen is: $warehouseDeleteConfirm$, score: 0.9999999986095691
+match_pic:screenshot_20240816_161113.png
+image:getThings,score: 0.9695555363673111
+image:machine,score: 0.9280123129214457
+image:callMain,score: 0.961390566506557
+image:callNum,score: 0.9305312059821812
+image:callEnd,score: 0.9815170874521816
+image:confirmCall0,score: 0.9549175949393394
+image:confirmCall7,score: 0.9913793371058987
+area:store,score: 0.9000710379835143
+Current screen is: $confirmCall7$, score: 0.9913793371058987
+match_pic:screenshot_20240816_161117.png
+area:store,score: 0.9435288533718467
+area:mail,score: 0.9700440512488664
+area:warehouse,score: 0.9999999902865819
+Current screen is: $warehouse$, score: 0.9999999902865819
+match_pic:screenshot_20240816_161122.png
+area:home,score: 0.999999999015218
+area:office,score: 0.9054904933625029
+area:fight,score: 0.9740727413702317
+Current screen is: $home$, score: 0.999999999015218
+这是主页
+Deleted: ./pic\screenshot_20240816_161031.png
+Deleted: ./pic\screenshot_20240816_161036.png
+Deleted: ./pic\screenshot_20240816_161041.png
+Deleted: ./pic\screenshot_20240816_161047.png
+Deleted: ./pic\screenshot_20240816_161053.png
+Deleted: ./pic\screenshot_20240816_161057.png
+Deleted: ./pic\screenshot_20240816_161108.png
+Deleted: ./pic\screenshot_20240816_161113.png
+Deleted: ./pic\screenshot_20240816_161117.png
+Deleted: ./pic\screenshot_20240816_161122.png
+Award
+match_pic:screenshot_20240816_161125.png
+area:home,score: 0.999999999015218
+area:office,score: 0.9054636601763693
+area:fight,score: 0.9740766199799722
+Current screen is: $home$, score: 0.999999999015218
+这是主页
+match_pic:screenshot_20240816_161131.png
 area:dailyAward,score: 0.9999999844509063
 area:weeklyAward,score: 0.9998492842259294
 Current screen is: $dailyAward$, score: 0.9999999844509063
-Error: 
-Error: adb.exe: device offline
-
-match_pic:screenshot_20240813_165052.png
-Error: Unable to read image ./pic/screenshot_20240813_165052.png
+match_pic:screenshot_20240816_161146.png
+area:dailyAward,score: 0.9998492199465613
+area:weeklyAward,score: 0.9999999794478749
+Current screen is: $weeklyAward$, score: 0.9999999794478749
+Deleted: ./pic\screenshot_20240816_161125.png
+Deleted: ./pic\screenshot_20240816_161131.png
+Deleted: ./pic\screenshot_20240816_161146.png
+match_pic:screenshot_20240816_161201.png
+area:home,score: 0.999999999015218
+area:office,score: 0.9054904933625029
+area:fight,score: 0.9740727413702317
+Current screen is: $home$, score: 0.999999999015218
+这是主页
+match_pic:screenshot_20240816_161207.png
+area:travel,score: 0.9982983979415712
+Current screen is: $travel$, score: 0.9982983979415712
+match_buttoning:travel
+match_pic:screenshot_20240816_161216.png
+area:travel,score: 0.999936294300437
+Current screen is: $travel$, score: 0.999936294300437
+button:travel,score:0.9999964467611837
+match_buttoning:travel
+match_pic:screenshot_20240816_161225.png
+area:travel,score: 0.9958528988854355
+Current screen is: $travel$, score: 0.9958528988854355
+button:travel,score:0.04541500331284259
+match_pic:screenshot_20240816_161229.png
+area:travel,score: 0.9962420437988795
+Current screen is: $travel$, score: 0.9962420437988795
+match_buttoning:travel
+match_pic:screenshot_20240816_161238.png
+area:travel,score: 0.9983934224899845
+Current screen is: $travel$, score: 0.9983934224899845
+button:travel,score:0.05026823649039666
+match_pic:screenshot_20240816_161241.png
+area:travel,score: 0.997032447766473
+Current screen is: $travel$, score: 0.997032447766473
+match_buttoning:travel
+match_pic:screenshot_20240816_161246.png
+area:travel,score: 0.9998517712895234
+Current screen is: $travel$, score: 0.9998517712895234
+button:travel,score:0.054966664329306344
+Deleted: ./pic\screenshot_20240816_161201.png
+Deleted: ./pic\screenshot_20240816_161207.png
+Deleted: ./pic\screenshot_20240816_161216.png
+Deleted: ./pic\screenshot_20240816_161225.png
+Deleted: ./pic\screenshot_20240816_161229.png
+Deleted: ./pic\screenshot_20240816_161238.png
+Deleted: ./pic\screenshot_20240816_161241.png
+Deleted: ./pic\screenshot_20240816_161246.png
