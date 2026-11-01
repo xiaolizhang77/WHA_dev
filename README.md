@@ -85,3 +85,5 @@ code/main_ui.py
 生成对应`requirement.txt`：
 
     pip freeze > requirements.txt
+
+[![Star History Chart](https://api.star-history.com/svg?repos=xiaolizhang77/WHA_dev&type=Date)](https://star-history.com/#OWNER/REPO&Date)
